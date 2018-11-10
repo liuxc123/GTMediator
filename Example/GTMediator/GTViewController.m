@@ -7,6 +7,8 @@
 //
 
 #import "GTViewController.h"
+#import "HomeServiceProtocol.h"
+#import "GTMediator.h"
 
 @interface GTViewController ()
 
@@ -17,7 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        id<HomeServiceProtocol> homeVC = [[GTMediator shareInstance] createService:@protocol(HomeServiceProtocol)];
+        [self presentViewController:homeVC animated:true completion:nil];
+    });
 }
 
 - (void)didReceiveMemoryWarning

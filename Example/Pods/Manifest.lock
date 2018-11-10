@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTMediator (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTMediator (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GTMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTMediator: 5145f95ef0f318ff64221b1be4d6f14a6826429a
+
+PODFILE CHECKSUM: b79755b0e9f8fa4c95e8e4055851e156abde5da9
+
+COCOAPODS: 1.5.0

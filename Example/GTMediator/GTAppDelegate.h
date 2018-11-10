@@ -7,8 +7,9 @@
 //
 
 @import UIKit;
+#import "GTMediator.h"
 
-@interface GTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GTAppDelegate : GTClientDelegate <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

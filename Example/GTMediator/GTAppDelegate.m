@@ -7,12 +7,27 @@
 //
 
 #import "GTAppDelegate.h"
+#import "GTTimeProfiler.h"
+#import "HomeModule.h"
 
 @implementation GTAppDelegate
 
+@synthesize window;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [GTContext shareInstance].application = application;
+    [GTContext shareInstance].launchOptions = launchOptions;
+    [GTContext shareInstance].moduleConfigName = @"GTMediator";
+    [GTMediator shareInstance].enableException = YES;
+    [GTMediator registerDynamicModule:[HomeModule class]];
+
+    [[GTMediator shareInstance] setContext:[GTContext shareInstance]];
+    [[GTTimeProfiler sharedTimeProfiler] recordEventTime:@"GTMediator::super start launch"];
+
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+
+
     return YES;
 }
 
