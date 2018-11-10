@@ -7,8 +7,7 @@
 //
 
 #import "HomeModule.h"
-#import "HomeServiceProtocol.h"
-#import "HomeServiceImpl.h"
+#import "HomeViewController.h"
 
 @implementation HomeModule
 
@@ -30,8 +29,8 @@
 
 - (void)modSetUp:(GTContext *)context
 {
-    //注册Service
-    [[GTMediator shareInstance] registerService:@protocol(HomeServiceProtocol) service:[HomeServiceImpl class]];
+    //动态注册Service
+    [[GTMediator shareInstance] registerService:@protocol(HomeServiceProtocol) service:[HomeViewController class]];
 }
 
 @end

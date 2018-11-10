@@ -3,9 +3,9 @@ use_frameworks!
 target 'GTMediator_Example' do
   pod 'GTMediator', :path => '../'
 
-  target 'GTMediator_Tests' do
-    inherit! :search_paths
+end
 
-    pod 'FBSnapshotTestCase'
-  end
+target 'GTMediatorSwift' do
+    pod 'GTMediator', :path => '../'
+    
 end

@@ -17,6 +17,7 @@
 /**
  组件化中间件
  */
+
 @interface GTMediator : NSObject
 
 // 全局上下文
@@ -42,3 +43,4 @@
 + (void)triggerCustomEvent:(NSInteger)eventType;
 
 @end
+

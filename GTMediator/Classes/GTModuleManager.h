@@ -91,3 +91,4 @@ typedef NS_ENUM(NSInteger, GTModuleEventType)
      withCustomParam:(NSDictionary *)customParam;
 
 @end
+

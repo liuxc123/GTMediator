@@ -12,6 +12,8 @@
 
 static const NSString *kService = @"service";
 static const NSString *kImpl = @"impl";
+static const NSString *kLazyLoad = @"lazyload";
+
 
 @interface GTServiceManager()
 
@@ -35,14 +37,14 @@ static const NSString *kImpl = @"impl";
 - (void)registerLocalServices
 {
     NSString *serviceConfigName = [GTContext shareInstance].serviceConfigName;
-
+    
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:serviceConfigName ofType:@"plist"];
     if (!plistPath) {
         return;
     }
-
+    
     NSArray *serviceList = [[NSArray alloc] initWithContentsOfFile:plistPath];
-
+    
     [self.lock lock];
     for (NSDictionary *dict in serviceList) {
         NSString *protocolKey = [dict objectForKey:@"service"];
@@ -58,29 +60,30 @@ static const NSString *kImpl = @"impl";
 {
     NSParameterAssert(service != nil);
     NSParameterAssert(implClass != nil);
-
+    
     if (![implClass conformsToProtocol:service]) {
         if (self.enableException) {
             @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:@"%@ module does not comply with %@ protocol", NSStringFromClass(implClass), NSStringFromProtocol(service)] userInfo:nil];
         }
         return;
     }
-
-    if (![self checkValidService:service]) {
+    
+    if ([self checkValidService:service]) {
         if (self.enableException) {
             @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:@"%@ protocol has been registed", NSStringFromProtocol(service)] userInfo:nil];
         }
         return;
     }
-
+    
     NSString *key = NSStringFromProtocol(service);
     NSString *value = NSStringFromClass(implClass);
-
+    
     if (key.length > 0 && value.length > 0) {
         [self.lock lock];
         [self.allServicesDict addEntriesFromDictionary:@{key:value}];
         [self.lock unlock];
     }
+    
 }
 
 - (id)createService:(Protocol *)service
@@ -88,24 +91,23 @@ static const NSString *kImpl = @"impl";
     return [self createService:service withServiceName:nil];
 }
 
-- (id)createService:(Protocol *)service withServiceName:(NSString *)serviceName
-{
+- (id )createService:(Protocol *)service withServiceName:(NSString *)serviceName {
     return [self createService:service withServiceName:serviceName shouldCache:YES];
 }
 
-- (id)createService:(Protocol *)service withServiceName:(NSString *)serviceName shouldCache:(BOOL)shouldCache
-{
+- (id)createService:(Protocol *)service withServiceName:(NSString *)serviceName shouldCache:(BOOL)shouldCache {
     if (!serviceName.length) {
         serviceName = NSStringFromProtocol(service);
     }
     id implInstance = nil;
-
+    
     if (![self checkValidService:service]) {
         if (self.enableException) {
             @throw [NSException exceptionWithName:NSInternalInconsistencyException reason:[NSString stringWithFormat:@"%@ protocol does not been registed", NSStringFromProtocol(service)] userInfo:nil];
         }
+        
     }
-
+    
     NSString *serviceStr = serviceName;
     if (shouldCache) {
         id protocolImpl = [[GTContext shareInstance] getServiceInstanceFromServiceName:serviceStr];
@@ -113,7 +115,7 @@ static const NSString *kImpl = @"impl";
             return protocolImpl;
         }
     }
-
+    
     Class implClass = [self serviceImplClass:service];
     if ([[implClass class] respondsToSelector:@selector(singleton)]) {
         if ([[implClass class] singleton]) {
@@ -130,7 +132,6 @@ static const NSString *kImpl = @"impl";
         }
     }
     return [[implClass alloc] init];
-
 }
 
 - (id)getServiceInstanceFromServiceName:(NSString *)serviceName
@@ -140,8 +141,9 @@ static const NSString *kImpl = @"impl";
 
 - (void)removeServiceWithServiceName:(NSString *)serviceName
 {
-    return [[GTContext shareInstance] removeServiceWithServiceName:serviceName];
+    [[GTContext shareInstance] removeServiceWithServiceName:serviceName];
 }
+
 
 #pragma mark - private
 - (Class)serviceImplClass:(Protocol *)service
@@ -185,5 +187,6 @@ static const NSString *kImpl = @"impl";
     [self.lock unlock];
     return dict;
 }
+
 
 @end

@@ -9,6 +9,7 @@
 #import "GTAppDelegate.h"
 #import "GTTimeProfiler.h"
 #import "HomeModule.h"
+#import "GTRouter.h"
 
 @implementation GTAppDelegate
 
@@ -18,16 +19,26 @@
 {
     [GTContext shareInstance].application = application;
     [GTContext shareInstance].launchOptions = launchOptions;
-    [GTContext shareInstance].moduleConfigName = @"GTMediator";
+    [GTContext shareInstance].moduleConfigName = @"GTMediator";    
+    
     [GTMediator shareInstance].enableException = YES;
-    [GTMediator registerDynamicModule:[HomeModule class]];
 
     [[GTMediator shareInstance] setContext:[GTContext shareInstance]];
     [[GTTimeProfiler sharedTimeProfiler] recordEventTime:@"GTMediator::super start launch"];
 
     [super application:application didFinishLaunchingWithOptions:launchOptions];
 
-
+    
+    NSURL *url = [NSURL URLWithString:@"mediator://jump.vc.beehive/HomeViewController"];
+    
+    //url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
+    //url - >  mediator://register.beehive/pathComponentKey.protocolName/...?params={}(value url encode)
+    //url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
+    //params -> {pathComponentKey:{paramName:paramValue,...},...}
+    //when call service， paramName = @1,@2,...(order of paramValue)
+    NSLog(@"%ld", [GTRouter canOpenURL:url]);
+    
+    
     return YES;
 }
 

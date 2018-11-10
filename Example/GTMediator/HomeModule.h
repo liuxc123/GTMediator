@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "GTMediator.h"
+#import "HomeServiceProtocol.h"
+#import "HomeServiceImpl.h"
 
 @interface HomeModule : NSObject <GTModuleProtocol>
 

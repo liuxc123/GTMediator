@@ -11,6 +11,7 @@
 /**
  服务协议
  */
+
 @protocol GTServiceProtocol <NSObject>
 
 @optional

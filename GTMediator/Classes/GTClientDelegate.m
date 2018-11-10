@@ -153,7 +153,7 @@
     }
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler NS_AVAILABLE_IOS(8_0)
 {
     if([UIDevice currentDevice].systemVersion.floatValue >= 8.0f){
         [[GTMediator shareInstance].context.userActivityItem setUserActivity: userActivity];

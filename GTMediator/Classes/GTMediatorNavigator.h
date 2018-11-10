@@ -20,6 +20,7 @@ typedef enum {
  * @class GTMediatorNavigator
  *  GTMediator内在支持的的导航器
  */
+
 @interface GTMediatorNavigator : NSObject
 
 /**
@@ -55,3 +56,4 @@ typedef enum {
                    routeMode:(NavigationMode)routeMode;
 
 @end
+

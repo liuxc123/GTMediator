@@ -4,6 +4,8 @@
 <dict>
 	<key>URLGlobalScheme</key>
 	<string>com.liuxc.mediator</string>
+	<key>services</key>
+	<string></string>
 	<key>moduleClasses</key>
 	<array>
 		<dict>

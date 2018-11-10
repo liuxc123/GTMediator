@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeServiceProtocol.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController <HomeServiceProtocol>
 
 @end

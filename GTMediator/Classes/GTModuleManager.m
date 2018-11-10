@@ -179,7 +179,6 @@ static  NSString *kAppCustomSelector = @"modDidCustomEvent:";
 - (void)triggerEvent:(NSInteger)eventType
 {
     [self triggerEvent:eventType withCustomParam:nil];
-
 }
 
 - (void)triggerEvent:(NSInteger)eventType

@@ -8,11 +8,13 @@
 /**
  GTClientDelegate 替换AppDelegate 接管整个客户端的生命周期
  */
+
 #import <Foundation/Foundation.h>
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
 #import <UserNotifications/UserNotifications.h>
 #endif
+
 
 @interface GTClientDelegate : UIResponder <UIApplicationDelegate>
 
@@ -83,3 +85,4 @@ typedef void (^GTWatchReplyHandler)(NSDictionary *replyInfo);
 @property (nonatomic, copy) GTWatchReplyHandler replyHandler;
 
 @end
+

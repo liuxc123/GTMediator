@@ -134,10 +134,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/GTMediator-iOS9.3/GTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GTMediator-iOS12.0/GTMediator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/GTMediator-iOS9.3/GTMediator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GTMediator-iOS12.0/GTMediator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
