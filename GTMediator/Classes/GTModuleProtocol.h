@@ -13,6 +13,10 @@
 @class GTContext;
 @class GTMediator;
 
+#define GT_EXPORT_MODULE(isAsync) \
++ (void)load { [GTMediator registerDynamicModule:[self class]]; } \
+-(BOOL)async { return [[NSString stringWithUTF8String:#isAsync] boolValue];}
+
 @protocol GTModuleProtocol <NSObject>
 
 @optional
@@ -26,10 +30,8 @@
 - (BOOL)async;
 //实例对象
 - (id)target;
-// 获取当前bundleName Swift类必须写这个属性 OC可以不写
-- (NSString *)bundleName;
-// 是否是Swift类 Swift类必须写这个属性 
-- (BOOL)isSwift;
+// 获取当前swiftbundleName Swift类必须写这个属性
+- (NSString *)swiftNundleName;
 
 - (void)modSetUp:(GTContext *)context;
 

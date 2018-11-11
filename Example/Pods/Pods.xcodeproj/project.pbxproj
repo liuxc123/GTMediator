@@ -7,70 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D8B61C43A6CFA24F88E8096AA43459 /* GTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E418AE07B88DAC23C8CB85A2E85E15 /* GTContext.m */; };
-		0FADF07FB3D2968638B9DFEACE1B9A60 /* GTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 258CCC277AB48161F203F343D0E2C577 /* GTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21B262FF363579230F5A0E12086AE30F /* GTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C864547FBA1BABF26C045699116ACCD /* GTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		238C85F190502B391103956F20C4D106 /* GTMediatorNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE06C52C21844909E8FC84BCF5D2B0E /* GTMediatorNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		244043F80A721AAFC0D458F8EAF18EC5 /* GTTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C4A15447F469EF7D0B60BC3C0DD6 /* GTTimeProfiler.m */; };
-		27AF75FA79CC976C4A8F943F55FD82D1 /* GTAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7197DBC7E9917ECA142800214AA513 /* GTAnnotation.m */; };
-		2A361768D375704B810F8BD6A427CE9E /* GTClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C7AF8885E1895C8DCE5137F8955E56 /* GTClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AFEFEC10F89B9FB12CBE05ED3E9C294 /* GTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 050FC4098F6403937D1E82D6B10D95B5 /* GTConfig.m */; };
-		359A61B102C7CA39A1C4AE4D57FCB751 /* GTClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C7AF8885E1895C8DCE5137F8955E56 /* GTClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3630A3C40EB44E36D9BBF7956D2AEB60 /* GTMediatorNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE06C52C21844909E8FC84BCF5D2B0E /* GTMediatorNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A4CE4F220F7B33B80E6F711D36AF53D /* GTAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7197DBC7E9917ECA142800214AA513 /* GTAnnotation.m */; };
-		3F1D58C90A8A2A9A16175B8BD51283B3 /* GTServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF406B61BB0D0D2336E0FD257CE95CA /* GTServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		410EF8799866384DCA1F73AB6434045E /* GTWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 570B3B4CC5AD460BBDAF6B83D88749F9 /* GTWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015261C042EB9F4349525607E4E7E838 /* GTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B50E7E88AE2A2BC1D493F5E71BE8A3 /* GTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05178BD9C2B4914D028CCCF140BDC10A /* GTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B6A5D6DF876D91DDD021CC682392DF /* GTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10F82522431B538BB2D6D3C40DB73DC6 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA862CE66ABB75C7FDD7D4A5B02CC9 /* UIViewController+NavigationTip.m */; };
+		11CD7AEA746D15D09B38F8677340AF57 /* GTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8F900D944F3486D40B247483B8C333 /* GTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121C07BE24AAAE954A2A90DBF19E220B /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA862CE66ABB75C7FDD7D4A5B02CC9 /* UIViewController+NavigationTip.m */; };
+		126E3F2408CFCF457E1EE69741C4EF12 /* GTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D600BE94719582635D17F32972CF72D /* GTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13442C7B172DE719B8068AAB0E1AA601 /* GTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B6A5D6DF876D91DDD021CC682392DF /* GTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14CFB81D905C3868F5C665245AE1A4BC /* GTModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AAE32DF5D127E95E25358426422B51 /* GTModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19774370263A23DC1E347EE7FC825E5A /* GTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8F900D944F3486D40B247483B8C333 /* GTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198DD985CC165946F1E50DE3E54B804B /* GTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D58B2E61188E046754791328860C69B3 /* GTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1C57FC55073A62AE17ED9E056E369E /* GTWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84694EC5C6728345DD7540ADDAD3BE /* GTWatchDog.m */; };
+		2259416DDCAD82BB498ABAC3BF4F34CB /* UIViewController+NavigationTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F41F8881C97A9E451AC92572F0A32DA /* UIViewController+NavigationTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23214898CD93383B0C9436680A50E15B /* GTMediatorNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5973C1480BE1F08272B98066748EB7A5 /* GTMediatorNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294F73B3E26A066881D970DC6CB5AB52 /* GTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDB6217A4E5BABF87B4376A363A48A7 /* GTAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29832A731E70BB8A86C744885AE68038 /* GTAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F1E76E0DCA05C70D2B76202AB53144 /* GTAnnotation.m */; };
+		2E11B793C5774D84A5A2CEF58FC96BD1 /* GTMediatorNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1E0998DD2F748C31153954FD90747 /* GTMediatorNavigator.m */; };
+		2F5793716A2125D6F8AC4B9FD9942D44 /* GTModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24339127F6C802B33F3BEDED56B4E4EA /* GTModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FE529594E69CB2A4516D553A2920E0 /* GTTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA7D53B385FDF68883CFC4830A2ED3 /* GTTimeProfiler.m */; };
+		38525BEE0CFA49AA1F0EB6FAC39A6B1A /* GTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDB6217A4E5BABF87B4376A363A48A7 /* GTAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAC1C327751FDD48C81FA089C1CB49F /* GTServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D1C7D30CB2B1F8A065356B33BA2F19 /* GTServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C880DE3B711EEF679DB926F7EF3373B /* GTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939C42BF876CB54C51071F8BC0C1AF7 /* GTRouter.m */; };
+		40F6414CC37299FBC96FEAEC81CA7D3F /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4363854AECEDD4438F0076F5B45554B6 /* GTMediator.m */; };
+		43A6F1A9D71EDE23F637AD70741CF8B5 /* GTClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61058910F2CDB802B484F76F55862BC9 /* GTClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		459C04D0D4C4FCB1C0660971F0DB9834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5F61AFE46AB9E38437B21B0473473856 /* GTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D30649774141FE6F1C3845A0504D29E0 /* GTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62555367E1369D221DC5C4C4EB9D29D2 /* GTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABF2081D1D2AC157955C0881055070A /* GTAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		631DCE3D77DE69A7A08681D43F63B890 /* GTModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D52772E25A4A5F611A91D39CD4A0DA /* GTModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6994429A858887423BFF52910B248C77 /* GTMediatorNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F359B0CC90DCEFE7745EAB8D0C5A3FD /* GTMediatorNavigator.m */; };
+		46DA6BD767278CB1476F420CD849B5C0 /* GTModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AAE32DF5D127E95E25358426422B51 /* GTModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A63A6A538E32D018E11CED8D93BA8B /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4363854AECEDD4438F0076F5B45554B6 /* GTMediator.m */; };
+		5590975EB1A76423C2FB065658DF9100 /* GTClientDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA72F69243B946537A6C0509A4136AE7 /* GTClientDelegate.m */; };
+		559AD3649014D213554B961019485B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5935D89E665FEDEE5068A8080CC973DE /* GTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1D4C48A6F90F7D4A44BE62A74B9C7 /* GTConfig.m */; };
+		698203BDEC8F8B95966C26C2AC933056 /* GTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA477CAAEB048624D89154FBAA84F /* GTModuleManager.m */; };
 		6B5D67AA8A815251005C8D22E20966DE /* Pods-GTMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22356796592EC82FECB4913B60940C9 /* Pods-GTMediator_Example-dummy.m */; };
-		6CAA99301C29FA642CB12F98B98B5063 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97178707B50961CF7D1429AFC837F123 /* GTMediator.m */; };
-		6E294E05A8515EE830464B4C38558DCA /* GTClientDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633A989118E05096474D0D066F7CF9AD /* GTClientDelegate.m */; };
-		7A7F50AC9850A80077E177084F23100A /* GTTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7044B13AB1DCCEBC35B1DE41E89E11 /* GTTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B6AD5D12D53B1F7931E0B0917F7023E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7E646FB1368FB92E39ABE24616634C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		80AAB50D3D2AB79C2DBAE57EB464D1CE /* GTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 050FC4098F6403937D1E82D6B10D95B5 /* GTConfig.m */; };
-		8299FAC9972AFE7FF1AD72D61E40A687 /* GTMediator-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 893208DDDA2DC513CA7845C39149274B /* GTMediator-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88BD33C64D1718518573038FAEC5B3DC /* GTServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 78AC6FC660AE661EBBF82DD2630494E0 /* GTServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A726BEB3B60B2A370CF14CC5A7CBE92 /* GTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2B302311252522F049F7FEC557AC41 /* GTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DA93A20DFEEC1FDDDDBE6396B163FDA /* GTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E418AE07B88DAC23C8CB85A2E85E15 /* GTContext.m */; };
-		8EC1ED5ED393E8F766A67876F3D9C6B5 /* GTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 258CCC277AB48161F203F343D0E2C577 /* GTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F2304378DB14ECA36FEBC645CC28332 /* GTWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 570B3B4CC5AD460BBDAF6B83D88749F9 /* GTWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90BD800029E765CFDCCBA6A4A2907013 /* GTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 36678B6294ED96E3BA9768E69F53A5CE /* GTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		979F10F673B92384D2067A6601A6302F /* GTTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C4A15447F469EF7D0B60BC3C0DD6 /* GTTimeProfiler.m */; };
-		9DCD50E7E3F33EA41BE568A2843B1BDF /* GTWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F2ADD77CD975C18BFA5B0935E6ABF73A /* GTWatchDog.m */; };
-		A1AF0170879DECB2C7E6BDF1631D667F /* GTModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D52772E25A4A5F611A91D39CD4A0DA /* GTModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A684ED1968BFC36A213F9F1ABB5E55F1 /* GTModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E798B782B8B689C1D15E87F63DD26D3C /* GTModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABD8F3267F72E8665A3815BC9F4D9AE6 /* GTServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CB44C2A8C8419817CACBD9E8815DF /* GTServiceManager.m */; };
+		7C78EBFA6B00D889A19724CD5FB95365 /* GTTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F73489463619A09786219892F50D87 /* GTTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD3B64E109CBA7AD597C30D3B3CCC32 /* GTMediatorNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1E0998DD2F748C31153954FD90747 /* GTMediatorNavigator.m */; };
+		8625D2A924020B5414B2216B6AF2FA99 /* GTMediator-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5716C4FD56050BEC8A2AC451790FA /* GTMediator-iOS9.3-dummy.m */; };
+		8BC4790196831B5EAC7F2FCD6072F415 /* GTClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61058910F2CDB802B484F76F55862BC9 /* GTClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E60B93207D1AA2A81385099872986E /* GTWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84694EC5C6728345DD7540ADDAD3BE /* GTWatchDog.m */; };
+		90FD5C357EBBC305D7EF81BC78B8F9A7 /* GTMediatorNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5973C1480BE1F08272B98066748EB7A5 /* GTMediatorNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9593CC1EB120F3A5987A664F9DDB515F /* GTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148F6929F08BBB0EA7562FCBF3AD821 /* GTContext.m */; };
+		97773CD0A8D62019546553B4404F0622 /* GTTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F73489463619A09786219892F50D87 /* GTTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		983B42D897D83B03EAA288AFB46E915F /* GTMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43467D425A573AFAD7AB3846550B09A8 /* GTMediatorTipViewController.m */; };
+		995D854578C7EDA6CB06DB417C2F78C0 /* GTServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C131098804F7E2378F2AA17A45C9CB7 /* GTServiceManager.m */; };
+		9C84901C1446AC1C69558A940B043EF0 /* GTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CB47D624652056C462D4B6765288B5 /* GTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A308C9C89647F3655024A3E14285452B /* GTModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24339127F6C802B33F3BEDED56B4E4EA /* GTModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A405876E21C45DDBD3DC9DA88DBDC2F6 /* GTTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA7D53B385FDF68883CFC4830A2ED3 /* GTTimeProfiler.m */; };
+		A8D6A438C583F83C063C5AF52A81515A /* GTServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D1C7D30CB2B1F8A065356B33BA2F19 /* GTServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F9750F645E7F3B349237B7CD78626A /* GTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B50E7E88AE2A2BC1D493F5E71BE8A3 /* GTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF2D50113A3CF3D224A3EF4A38FB59D /* GTContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148F6929F08BBB0EA7562FCBF3AD821 /* GTContext.m */; };
+		AF442ECB5A3F29A45C286D98C899FCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B11416FFE32D5D7FF0DBCBFF0698B9DB /* GTServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C94D52CEB33D30571319B48041783BA3 /* GTServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B521A61D2CBEB00AF62944CD86661B2C /* GTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDA477CAAEB048624D89154FBAA84F /* GTModuleManager.m */; };
 		B695C631B8C94B1A25B608883240C689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B713A7E5DCEDCD8A2E5A790D792409D5 /* GTMediator-iOS12.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D5241269080CF4680AB7179C87D082 /* GTMediator-iOS12.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94E35319865306C9F6B43A05F534954 /* Pods-GTMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB22F289CCE5048F64520245356E75B /* Pods-GTMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBE1E7404ACF8975487D05DF830091E9 /* GTServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF406B61BB0D0D2336E0FD257CE95CA /* GTServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C10504E266A8041489CE122DFDDD6B11 /* GTWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F2ADD77CD975C18BFA5B0935E6ABF73A /* GTWatchDog.m */; };
 		C1B7A946657A4A8B9913CE6064A83FC8 /* Pods-GTMediatorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C33EB902D37BA5B36ED90B52BC422B /* Pods-GTMediatorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D8446F37F180092AFA1E3151CCFFCA /* GTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABF2081D1D2AC157955C0881055070A /* GTAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34F8C192B662EBB0D25DEBDDB73671E /* GTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C864547FBA1BABF26C045699116ACCD /* GTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3EA69D0AC744FD88A15B4DF87D85945 /* GTModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E798B782B8B689C1D15E87F63DD26D3C /* GTModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C41B55465DD3203F2FCAF663B658FA15 /* GTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE1306AB2BFA5AA175E615043176580 /* GTModuleManager.m */; };
-		C56A64EE23FB9A958014A0FEB59B1EBE /* GTServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 78AC6FC660AE661EBBF82DD2630494E0 /* GTServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C712F92977F007098438CE0F73959E57 /* GTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2B302311252522F049F7FEC557AC41 /* GTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBCCBB3AE38692F2543C55EA1331339D /* GTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 36678B6294ED96E3BA9768E69F53A5CE /* GTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C471E2D1D0F19B02927FCB84431DF7EB /* GTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CB47D624652056C462D4B6765288B5 /* GTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BE311AE8259C8C3695138FA5DD662A /* GTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D58B2E61188E046754791328860C69B3 /* GTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C993F3638D0B510760DF34708C476B3C /* GTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D600BE94719582635D17F32972CF72D /* GTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EB5399B174D4B37186CF2B7070BAC3 /* GTMediator-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61519BA6EBC2802F5A471FC60C2D3DCD /* GTMediator-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3153F82F143F89AF1CFDB08714D5E3 /* GTMediator-iOS12.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D3EFBDB3AAFEA12B58156FDCADBB83 /* GTMediator-iOS12.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD887EC29D1D0E00B13CFDE8691D763A /* Pods-GTMediatorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA6EC9E28552FBC1B437F280FACCB4 /* Pods-GTMediatorSwift-dummy.m */; };
-		CEB99B53B2BC31570485C776ADC0ACD1 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97178707B50961CF7D1429AFC837F123 /* GTMediator.m */; };
-		D1D1672E31B60CF5E8D2C419B9DCCCBE /* GTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6DCE26F6F4ECD164FAB8201A1031F5 /* GTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4119BEFE733B3C581F0C40B09579461 /* GTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D30649774141FE6F1C3845A0504D29E0 /* GTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5FAFF11577B97D3A543AE86BCECEB5F /* GTMediatorNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F359B0CC90DCEFE7745EAB8D0C5A3FD /* GTMediatorNavigator.m */; };
-		DADA87C7E4E4782351872E0D9B90E272 /* GTTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7044B13AB1DCCEBC35B1DE41E89E11 /* GTTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E032F48EB9812DB78513143C705E3E5C /* GTServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CB44C2A8C8419817CACBD9E8815DF /* GTServiceManager.m */; };
-		E16B7D98AAD1692F2613957719EC7650 /* GTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B594993B01B912D54D0CF5A130B57 /* GTRouter.m */; };
-		E63EF995B8E9F95D30168211CDBA059E /* GTMediator-iOS12.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADF63B3597616485386B257E9E1E909 /* GTMediator-iOS12.0-dummy.m */; };
-		E6B898C37781B376012A966F81F5F4A5 /* GTMediator-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E763313AF4A80161D606282DA11039C2 /* GTMediator-iOS9.3-dummy.m */; };
-		EDD2B2A725055A335EDB397D0A6ECB0F /* GTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6DCE26F6F4ECD164FAB8201A1031F5 /* GTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F380D8CD64B7FC2AFE9C994D0214D7CE /* GTModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE1306AB2BFA5AA175E615043176580 /* GTModuleManager.m */; };
-		F688FFFC2505BF3C6BCF78348D4B8C38 /* GTClientDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633A989118E05096474D0D066F7CF9AD /* GTClientDelegate.m */; };
-		F6D3A7AB8A685EC989931EAECF141A32 /* GTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B594993B01B912D54D0CF5A130B57 /* GTRouter.m */; };
+		D666808C6D21BA654A2A662FAA0E6F7E /* GTAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F1E76E0DCA05C70D2B76202AB53144 /* GTAnnotation.m */; };
+		DC067A521AEEE22DA53B5C3FEC8B5EA7 /* GTServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C94D52CEB33D30571319B48041783BA3 /* GTServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02979039E2C185EF6907CBF60242F41 /* GTClientDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA72F69243B946537A6C0509A4136AE7 /* GTClientDelegate.m */; };
+		E02DB55D37A11E67ABF78C8C826B37F3 /* GTMediatorTipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA38683D8DA72508CDD52BFA01BF5D63 /* GTMediatorTipViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E448601C9E5B603899E3EF818212341B /* GTMediator-iOS12.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A07FE175F8C20CFC841CA009B1B608C /* GTMediator-iOS12.0-dummy.m */; };
+		E7C16C5DBDBEE84642E2F644EDC4CE7F /* GTWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 688711CD3B96E2BB8C37DA35202FF9CF /* GTWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8A552A72F8C63B573461FCDC8AA1D4 /* GTMediatorTipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA38683D8DA72508CDD52BFA01BF5D63 /* GTMediatorTipViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD6B29310A7B533456B77860299D5C4 /* UIViewController+NavigationTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F41F8881C97A9E451AC92572F0A32DA /* UIViewController+NavigationTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED57C76F9978C7E6F26112933E9E664E /* GTServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C131098804F7E2378F2AA17A45C9CB7 /* GTServiceManager.m */; };
+		F0772A7CE0FE11A0B1BC3EA758E59603 /* GTMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43467D425A573AFAD7AB3846550B09A8 /* GTMediatorTipViewController.m */; };
+		FCCFA4A89C3922ACF9E6FE19B216FC88 /* GTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939C42BF876CB54C51071F8BC0C1AF7 /* GTRouter.m */; };
+		FEB1F1E37E32F13B910C9225F855D446 /* GTWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 688711CD3B96E2BB8C37DA35202FF9CF /* GTWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEE97E8593C54C2687E209E223DAE0D /* GTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF1D4C48A6F90F7D4A44BE62A74B9C7 /* GTConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,89 +86,101 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24F8E43B6575B3FA7F7C82BD0D64792B;
+			remoteGlobalIDString = CD2206533E921949C0A91827C5352FD1;
 			remoteInfo = "GTMediator-iOS12.0";
 		};
 		4E54FE85A5F522448B3EE683DC6533A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5B18A8A0B49B16F538BC98D1634CCC3;
+			remoteGlobalIDString = 66E03F0D636A8D5F4B28088A4DDF2127;
 			remoteInfo = "GTMediator-iOS9.3";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B5D5D8E6DC145D23B642DADB45A929 /* Pods_GTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		050FC4098F6403937D1E82D6B10D95B5 /* GTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTConfig.m; path = GTMediator/Classes/GTConfig.m; sourceTree = "<group>"; };
-		05A57AD682F5665C962D7C983A1D0C90 /* GTMediator-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMediator-iOS9.3-prefix.pch"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		01B5D5D8E6DC145D23B642DADB45A929 /* Pods_GTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMediator_Example.framework; path = "Pods-GTMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		062B3A098F1017D163D494DC568D818F /* Pods-GTMediatorSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediatorSwift.release.xcconfig"; sourceTree = "<group>"; };
-		0C229095D520236DE8AA807384782A10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0C24F73DF26263B1B2FD1310C8B820AB /* GTMediator-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GTMediator-iOS9.3.xcconfig"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.xcconfig"; sourceTree = "<group>"; };
 		0C8EFA3E0101692EB144FA291FDA2544 /* Pods-GTMediatorSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediatorSwift-resources.sh"; sourceTree = "<group>"; };
-		1B36298646A17F2F5A678E57992DFED3 /* GTMediator-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "GTMediator-iOS9.3.modulemap"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap"; sourceTree = "<group>"; };
-		1F359B0CC90DCEFE7745EAB8D0C5A3FD /* GTMediatorNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediatorNavigator.m; path = GTMediator/Classes/GTMediatorNavigator.m; sourceTree = "<group>"; };
-		258CCC277AB48161F203F343D0E2C577 /* GTDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTDefines.h; path = GTMediator/Classes/GTDefines.h; sourceTree = "<group>"; };
-		29D5241269080CF4680AB7179C87D082 /* GTMediator-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMediator-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
-		310EEB56B9D15EFB522640AB4F0F3898 /* GTMediator-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GTMediator-iOS12.0.xcconfig"; sourceTree = "<group>"; };
-		326CB44C2A8C8419817CACBD9E8815DF /* GTServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTServiceManager.m; path = GTMediator/Classes/GTServiceManager.m; sourceTree = "<group>"; };
-		36678B6294ED96E3BA9768E69F53A5CE /* GTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTConfig.h; path = GTMediator/Classes/GTConfig.h; sourceTree = "<group>"; };
+		20179583122E567B7189436D59D7B315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24339127F6C802B33F3BEDED56B4E4EA /* GTModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleManager.h; path = GTMediator/Classes/GTModuleManager.h; sourceTree = "<group>"; };
+		369C43C9B4ECEF359E5CC37A41558EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C058AA66B92CE8255C9058974B7B79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C35C4A15447F469EF7D0B60BC3C0DD6 /* GTTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTTimeProfiler.m; path = GTMediator/Classes/GTTimeProfiler.m; sourceTree = "<group>"; };
-		43CF88CA23609368CE3124530A053E8C /* GTMediator-iOS12.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMediator-iOS12.0-prefix.pch"; sourceTree = "<group>"; };
-		48BF5D12243D65E9472E7A6B1FFDEEF5 /* Pods-GTMediatorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTMediatorSwift.modulemap"; sourceTree = "<group>"; };
-		4A6DCE26F6F4ECD164FAB8201A1031F5 /* GTContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTContext.h; path = GTMediator/Classes/GTContext.h; sourceTree = "<group>"; };
+		39D1C7D30CB2B1F8A065356B33BA2F19 /* GTServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTServiceProtocol.h; path = GTMediator/Classes/GTServiceProtocol.h; sourceTree = "<group>"; };
+		3BEDA477CAAEB048624D89154FBAA84F /* GTModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTModuleManager.m; path = GTMediator/Classes/GTModuleManager.m; sourceTree = "<group>"; };
+		3E84694EC5C6728345DD7540ADDAD3BE /* GTWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTWatchDog.m; path = GTMediator/Classes/GTWatchDog.m; sourceTree = "<group>"; };
+		41EA46539A8B18399CDA391ED21BBBE3 /* GTMediator-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMediator-iOS9.3-prefix.pch"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		43467D425A573AFAD7AB3846550B09A8 /* GTMediatorTipViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediatorTipViewController.m; path = GTMediator/Classes/GTMediatorTipViewController.m; sourceTree = "<group>"; };
+		4363854AECEDD4438F0076F5B45554B6 /* GTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediator.m; path = GTMediator/Classes/GTMediator.m; sourceTree = "<group>"; };
+		43D3EFBDB3AAFEA12B58156FDCADBB83 /* GTMediator-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMediator-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
+		47CB47D624652056C462D4B6765288B5 /* GTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTConfig.h; path = GTMediator/Classes/GTConfig.h; sourceTree = "<group>"; };
+		48BF5D12243D65E9472E7A6B1FFDEEF5 /* Pods-GTMediatorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTMediatorSwift.modulemap"; sourceTree = "<group>"; };
+		4A63FEC45DA4B56283F18875BBC36A5B /* GTMediator-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GTMediator-iOS9.3.modulemap"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap"; sourceTree = "<group>"; };
 		4AAE4F54F8C06FC5398F80B01175AB34 /* Pods-GTMediatorSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMediatorSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53F11844282961579399B1A87DBC3DB8 /* GTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GTMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		570B3B4CC5AD460BBDAF6B83D88749F9 /* GTWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTWatchDog.h; path = GTMediator/Classes/GTWatchDog.h; sourceTree = "<group>"; };
-		619B594993B01B912D54D0CF5A130B57 /* GTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTRouter.m; path = GTMediator/Classes/GTRouter.m; sourceTree = "<group>"; };
-		633A989118E05096474D0D066F7CF9AD /* GTClientDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTClientDelegate.m; path = GTMediator/Classes/GTClientDelegate.m; sourceTree = "<group>"; };
+		54DA7D53B385FDF68883CFC4830A2ED3 /* GTTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTTimeProfiler.m; path = GTMediator/Classes/GTTimeProfiler.m; sourceTree = "<group>"; };
+		5939C42BF876CB54C51071F8BC0C1AF7 /* GTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTRouter.m; path = GTMediator/Classes/GTRouter.m; sourceTree = "<group>"; };
+		5973C1480BE1F08272B98066748EB7A5 /* GTMediatorNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediatorNavigator.h; path = GTMediator/Classes/GTMediatorNavigator.h; sourceTree = "<group>"; };
+		5ABA1E4F3E7D1FF545FE9E491D42C0C7 /* GTMediator-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GTMediator-iOS12.0.modulemap"; sourceTree = "<group>"; };
+		5EEA862CE66ABB75C7FDD7D4A5B02CC9 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NavigationTip.m"; path = "GTMediator/Classes/UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
+		5F41F8881C97A9E451AC92572F0A32DA /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigationTip.h"; path = "GTMediator/Classes/UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
+		61058910F2CDB802B484F76F55862BC9 /* GTClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTClientDelegate.h; path = GTMediator/Classes/GTClientDelegate.h; sourceTree = "<group>"; };
+		61519BA6EBC2802F5A471FC60C2D3DCD /* GTMediator-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMediator-iOS9.3-umbrella.h"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
 		63BEFB8748450A0ADA093B845B644F0B /* Pods-GTMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69D34AC82F72A4314F34B90ED158A70E /* Pods_GTMediatorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMediatorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ADF63B3597616485386B257E9E1E909 /* GTMediator-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMediator-iOS12.0-dummy.m"; sourceTree = "<group>"; };
-		6C864547FBA1BABF26C045699116ACCD /* GTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTRouter.h; path = GTMediator/Classes/GTRouter.h; sourceTree = "<group>"; };
+		66A6A5667BECCF64B53B3088C1F2070D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GTMediator-iOS9.3/Info.plist"; sourceTree = "<group>"; };
+		67F1E76E0DCA05C70D2B76202AB53144 /* GTAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTAnnotation.m; path = GTMediator/Classes/GTAnnotation.m; sourceTree = "<group>"; };
+		688711CD3B96E2BB8C37DA35202FF9CF /* GTWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTWatchDog.h; path = GTMediator/Classes/GTWatchDog.h; sourceTree = "<group>"; };
+		68AAE32DF5D127E95E25358426422B51 /* GTModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleProtocol.h; path = GTMediator/Classes/GTModuleProtocol.h; sourceTree = "<group>"; };
+		69D34AC82F72A4314F34B90ED158A70E /* Pods_GTMediatorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMediatorSwift.framework; path = "Pods-GTMediatorSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF1E0998DD2F748C31153954FD90747 /* GTMediatorNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediatorNavigator.m; path = GTMediator/Classes/GTMediatorNavigator.m; sourceTree = "<group>"; };
+		6C131098804F7E2378F2AA17A45C9CB7 /* GTServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTServiceManager.m; path = GTMediator/Classes/GTServiceManager.m; sourceTree = "<group>"; };
+		6CD5716C4FD56050BEC8A2AC451790FA /* GTMediator-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMediator-iOS9.3-dummy.m"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-dummy.m"; sourceTree = "<group>"; };
 		7589534F38BE197B08094476F1E9C755 /* Pods-GTMediatorSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediatorSwift-frameworks.sh"; sourceTree = "<group>"; };
-		778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78AC6FC660AE661EBBF82DD2630494E0 /* GTServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTServiceProtocol.h; path = GTMediator/Classes/GTServiceProtocol.h; sourceTree = "<group>"; };
+		778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMediator.framework; path = "GTMediator-iOS12.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A07FE175F8C20CFC841CA009B1B608C /* GTMediator-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMediator-iOS12.0-dummy.m"; sourceTree = "<group>"; };
+		7AF1D4C48A6F90F7D4A44BE62A74B9C7 /* GTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTConfig.m; path = GTMediator/Classes/GTConfig.m; sourceTree = "<group>"; };
+		7D600BE94719582635D17F32972CF72D /* GTContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTContext.h; path = GTMediator/Classes/GTContext.h; sourceTree = "<group>"; };
 		7EAA6EC9E28552FBC1B437F280FACCB4 /* Pods-GTMediatorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMediatorSwift-dummy.m"; sourceTree = "<group>"; };
 		80978904F28E5E15DCD3DD126A94E8AD /* Pods-GTMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		877ED24F2A3BFD745D53EF60BB7C4D47 /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		881C9F01AE2E2F5A248B5E4876363B46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		893208DDDA2DC513CA7845C39149274B /* GTMediator-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMediator-iOS9.3-umbrella.h"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
-		8A2B302311252522F049F7FEC557AC41 /* GTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediator.h; path = GTMediator/Classes/GTMediator.h; sourceTree = "<group>"; };
+		8148F6929F08BBB0EA7562FCBF3AD821 /* GTContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTContext.m; path = GTMediator/Classes/GTContext.m; sourceTree = "<group>"; };
+		81B50E7E88AE2A2BC1D493F5E71BE8A3 /* GTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediator.h; path = GTMediator/Classes/GTMediator.h; sourceTree = "<group>"; };
+		877ED24F2A3BFD745D53EF60BB7C4D47 /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMediator.framework; path = "GTMediator-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8F900D944F3486D40B247483B8C333 /* GTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTRouter.h; path = GTMediator/Classes/GTRouter.h; sourceTree = "<group>"; };
 		91E93756A3CD56FB9967C9D1A96AFE9D /* Pods-GTMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97178707B50961CF7D1429AFC837F123 /* GTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediator.m; path = GTMediator/Classes/GTMediator.m; sourceTree = "<group>"; };
-		9ABF2081D1D2AC157955C0881055070A /* GTAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTAnnotation.h; path = GTMediator/Classes/GTAnnotation.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B7258685B7318830F94B3EE2728D2AF /* GTMediator-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GTMediator-iOS9.3.xcconfig"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.xcconfig"; sourceTree = "<group>"; };
+		A23FD83B57C268AE9579C5C88853889A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AAA01E10935E0AB2DA62F012934370F5 /* Pods-GTMediatorSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMediatorSwift-acknowledgements.plist"; sourceTree = "<group>"; };
 		ACB22F289CCE5048F64520245356E75B /* Pods-GTMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		AFDB6217A4E5BABF87B4376A363A48A7 /* GTAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTAnnotation.h; path = GTMediator/Classes/GTAnnotation.h; sourceTree = "<group>"; };
+		B5EC73B56C4BF25C3D3D4EDD2B5B3D16 /* GTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6470B1EECA81B911B7C33373708E479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E418AE07B88DAC23C8CB85A2E85E15 /* GTContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTContext.m; path = GTMediator/Classes/GTContext.m; sourceTree = "<group>"; };
-		BFE06C52C21844909E8FC84BCF5D2B0E /* GTMediatorNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediatorNavigator.h; path = GTMediator/Classes/GTMediatorNavigator.h; sourceTree = "<group>"; };
-		CDE1306AB2BFA5AA175E615043176580 /* GTModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTModuleManager.m; path = GTMediator/Classes/GTModuleManager.m; sourceTree = "<group>"; };
+		C94D52CEB33D30571319B48041783BA3 /* GTServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTServiceManager.h; path = GTMediator/Classes/GTServiceManager.h; sourceTree = "<group>"; };
+		CA38683D8DA72508CDD52BFA01BF5D63 /* GTMediatorTipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediatorTipViewController.h; path = GTMediator/Classes/GTMediatorTipViewController.h; sourceTree = "<group>"; };
 		D0443669D9CD1E59A39DF55131442CFD /* Pods-GTMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D171A71827C959D47DA00BEC778B2E5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1D52772E25A4A5F611A91D39CD4A0DA /* GTModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleProtocol.h; path = GTMediator/Classes/GTModuleProtocol.h; sourceTree = "<group>"; };
-		D30649774141FE6F1C3845A0504D29E0 /* GTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCommon.h; path = GTMediator/Classes/GTCommon.h; sourceTree = "<group>"; };
+		D58B2E61188E046754791328860C69B3 /* GTDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTDefines.h; path = GTMediator/Classes/GTDefines.h; sourceTree = "<group>"; };
 		D61051E586A14F0937DA03618C999759 /* Pods-GTMediatorSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediatorSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		DD7197DBC7E9917ECA142800214AA513 /* GTAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTAnnotation.m; path = GTMediator/Classes/GTAnnotation.m; sourceTree = "<group>"; };
+		D8AB1482DBAC29489EA3A5ABD067996E /* GTMediator-iOS12.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMediator-iOS12.0-prefix.pch"; sourceTree = "<group>"; };
 		E0A549135F069A3AAADB2E80EC4FAEE6 /* Pods-GTMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediator_Example-resources.sh"; sourceTree = "<group>"; };
 		E22356796592EC82FECB4913B60940C9 /* Pods-GTMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMediator_Example-dummy.m"; sourceTree = "<group>"; };
-		E763313AF4A80161D606282DA11039C2 /* GTMediator-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMediator-iOS9.3-dummy.m"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-dummy.m"; sourceTree = "<group>"; };
-		E798B782B8B689C1D15E87F63DD26D3C /* GTModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleManager.h; path = GTMediator/Classes/GTModuleManager.h; sourceTree = "<group>"; };
-		E7C7AF8885E1895C8DCE5137F8955E56 /* GTClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTClientDelegate.h; path = GTMediator/Classes/GTClientDelegate.h; sourceTree = "<group>"; };
-		F0E843AD5B432DE3F9068F6036EAC015 /* GTMediator-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "GTMediator-iOS12.0.modulemap"; sourceTree = "<group>"; };
-		F2ADD77CD975C18BFA5B0935E6ABF73A /* GTWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTWatchDog.m; path = GTMediator/Classes/GTWatchDog.m; sourceTree = "<group>"; };
-		F4C5691B8EF3BE5F6CE8309C5C641DBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GTMediator-iOS9.3/Info.plist"; sourceTree = "<group>"; };
+		E4B6A5D6DF876D91DDD021CC682392DF /* GTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCommon.h; path = GTMediator/Classes/GTCommon.h; sourceTree = "<group>"; };
 		F5C33EB902D37BA5B36ED90B52BC422B /* Pods-GTMediatorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMediatorSwift-umbrella.h"; sourceTree = "<group>"; };
-		F72A1EB3A9C313585D41841DE8BA9AC7 /* Pods-GTMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTMediator_Example.modulemap"; sourceTree = "<group>"; };
+		F5F6CE07C9F84D66D293E4206B499EA0 /* GTMediator-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GTMediator-iOS12.0.xcconfig"; sourceTree = "<group>"; };
+		F72A1EB3A9C313585D41841DE8BA9AC7 /* Pods-GTMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTMediator_Example.modulemap"; sourceTree = "<group>"; };
 		F7CFB44B1D739D05EC8848A501E6B44F /* Pods-GTMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FBF406B61BB0D0D2336E0FD257CE95CA /* GTServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTServiceManager.h; path = GTMediator/Classes/GTServiceManager.h; sourceTree = "<group>"; };
-		FE7044B13AB1DCCEBC35B1DE41E89E11 /* GTTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTTimeProfiler.h; path = GTMediator/Classes/GTTimeProfiler.h; sourceTree = "<group>"; };
+		F8F73489463619A09786219892F50D87 /* GTTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTTimeProfiler.h; path = GTMediator/Classes/GTTimeProfiler.h; sourceTree = "<group>"; };
+		FA72F69243B946537A6C0509A4136AE7 /* GTClientDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTClientDelegate.m; path = GTMediator/Classes/GTClientDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B7FAAAD4109FE6E48306B3464262D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559AD3649014D213554B961019485B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D9F48B64539A9E764B199E6E09EB367 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,39 +197,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFE698F0A723DF0D693871D1CAF413CA /* Frameworks */ = {
+		DDE725DF87561E70D669DCCD05EE0D22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E646FB1368FB92E39ABE24616634C9F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA00697E2CF1DFFA0E6E1F087EF5A38F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B6AD5D12D53B1F7931E0B0917F7023E /* Foundation.framework in Frameworks */,
+				AF442ECB5A3F29A45C286D98C899FCFE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1625BD34ECEACA2A293E2D4626169F88 /* Pod */ = {
+		5259906939588B913D9F7F4532BB8522 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				53F11844282961579399B1A87DBC3DB8 /* GTMediator.podspec */,
-				0C229095D520236DE8AA807384782A10 /* LICENSE */,
-				881C9F01AE2E2F5A248B5E4876363B46 /* README.md */,
+				B5EC73B56C4BF25C3D3D4EDD2B5B3D16 /* GTMediator.podspec */,
+				20179583122E567B7189436D59D7B315 /* LICENSE */,
+				A23FD83B57C268AE9579C5C88853889A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3A91F822E426A4889B38BA42A9CB1CEA /* Development Pods */ = {
+		691F0A4E1DCACE172F081CE0FBBCFFD0 /* GTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				FF1D108641D614DA12123049E60F11DF /* GTMediator */,
+				AFDB6217A4E5BABF87B4376A363A48A7 /* GTAnnotation.h */,
+				67F1E76E0DCA05C70D2B76202AB53144 /* GTAnnotation.m */,
+				61058910F2CDB802B484F76F55862BC9 /* GTClientDelegate.h */,
+				FA72F69243B946537A6C0509A4136AE7 /* GTClientDelegate.m */,
+				E4B6A5D6DF876D91DDD021CC682392DF /* GTCommon.h */,
+				47CB47D624652056C462D4B6765288B5 /* GTConfig.h */,
+				7AF1D4C48A6F90F7D4A44BE62A74B9C7 /* GTConfig.m */,
+				7D600BE94719582635D17F32972CF72D /* GTContext.h */,
+				8148F6929F08BBB0EA7562FCBF3AD821 /* GTContext.m */,
+				D58B2E61188E046754791328860C69B3 /* GTDefines.h */,
+				81B50E7E88AE2A2BC1D493F5E71BE8A3 /* GTMediator.h */,
+				4363854AECEDD4438F0076F5B45554B6 /* GTMediator.m */,
+				5973C1480BE1F08272B98066748EB7A5 /* GTMediatorNavigator.h */,
+				6AF1E0998DD2F748C31153954FD90747 /* GTMediatorNavigator.m */,
+				CA38683D8DA72508CDD52BFA01BF5D63 /* GTMediatorTipViewController.h */,
+				43467D425A573AFAD7AB3846550B09A8 /* GTMediatorTipViewController.m */,
+				24339127F6C802B33F3BEDED56B4E4EA /* GTModuleManager.h */,
+				3BEDA477CAAEB048624D89154FBAA84F /* GTModuleManager.m */,
+				68AAE32DF5D127E95E25358426422B51 /* GTModuleProtocol.h */,
+				8E8F900D944F3486D40B247483B8C333 /* GTRouter.h */,
+				5939C42BF876CB54C51071F8BC0C1AF7 /* GTRouter.m */,
+				C94D52CEB33D30571319B48041783BA3 /* GTServiceManager.h */,
+				6C131098804F7E2378F2AA17A45C9CB7 /* GTServiceManager.m */,
+				39D1C7D30CB2B1F8A065356B33BA2F19 /* GTServiceProtocol.h */,
+				F8F73489463619A09786219892F50D87 /* GTTimeProfiler.h */,
+				54DA7D53B385FDF68883CFC4830A2ED3 /* GTTimeProfiler.m */,
+				688711CD3B96E2BB8C37DA35202FF9CF /* GTWatchDog.h */,
+				3E84694EC5C6728345DD7540ADDAD3BE /* GTWatchDog.m */,
+				5F41F8881C97A9E451AC92572F0A32DA /* UIViewController+NavigationTip.h */,
+				5EEA862CE66ABB75C7FDD7D4A5B02CC9 /* UIViewController+NavigationTip.m */,
+				5259906939588B913D9F7F4532BB8522 /* Pod */,
+				F799AFD3F2DFA6A749A368EB516ECB23 /* Support Files */,
+			);
+			name = GTMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70515F106041880B82A378494BBF0566 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				691F0A4E1DCACE172F081CE0FBBCFFD0 /* GTMediator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -238,7 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3A91F822E426A4889B38BA42A9CB1CEA /* Development Pods */,
+				70515F106041880B82A378494BBF0566 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7CBB2489B18C2A447EE4232B5A99DD0E /* Products */,
 				7DACB8121393639DB36988970B50994E /* Targets Support Files */,
@@ -259,26 +311,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DCF3EC754C2DEBE9C3EE5DB61E6B2342 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0E843AD5B432DE3F9068F6036EAC015 /* GTMediator-iOS12.0.modulemap */,
-				310EEB56B9D15EFB522640AB4F0F3898 /* GTMediator-iOS12.0.xcconfig */,
-				6ADF63B3597616485386B257E9E1E909 /* GTMediator-iOS12.0-dummy.m */,
-				43CF88CA23609368CE3124530A053E8C /* GTMediator-iOS12.0-prefix.pch */,
-				29D5241269080CF4680AB7179C87D082 /* GTMediator-iOS12.0-umbrella.h */,
-				1B36298646A17F2F5A678E57992DFED3 /* GTMediator-iOS9.3.modulemap */,
-				0C24F73DF26263B1B2FD1310C8B820AB /* GTMediator-iOS9.3.xcconfig */,
-				E763313AF4A80161D606282DA11039C2 /* GTMediator-iOS9.3-dummy.m */,
-				05A57AD682F5665C962D7C983A1D0C90 /* GTMediator-iOS9.3-prefix.pch */,
-				893208DDDA2DC513CA7845C39149274B /* GTMediator-iOS9.3-umbrella.h */,
-				F4C5691B8EF3BE5F6CE8309C5C641DBA /* Info.plist */,
-				D171A71827C959D47DA00BEC778B2E5E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GTMediator-iOS12.0";
 			sourceTree = "<group>";
 		};
 		EFF38A0FF006D01B57E3CB6AD48D9170 /* Pods-GTMediator_Example */ = {
@@ -317,45 +349,54 @@
 			path = "Target Support Files/Pods-GTMediatorSwift";
 			sourceTree = "<group>";
 		};
-		FF1D108641D614DA12123049E60F11DF /* GTMediator */ = {
+		F799AFD3F2DFA6A749A368EB516ECB23 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9ABF2081D1D2AC157955C0881055070A /* GTAnnotation.h */,
-				DD7197DBC7E9917ECA142800214AA513 /* GTAnnotation.m */,
-				E7C7AF8885E1895C8DCE5137F8955E56 /* GTClientDelegate.h */,
-				633A989118E05096474D0D066F7CF9AD /* GTClientDelegate.m */,
-				D30649774141FE6F1C3845A0504D29E0 /* GTCommon.h */,
-				36678B6294ED96E3BA9768E69F53A5CE /* GTConfig.h */,
-				050FC4098F6403937D1E82D6B10D95B5 /* GTConfig.m */,
-				4A6DCE26F6F4ECD164FAB8201A1031F5 /* GTContext.h */,
-				B6E418AE07B88DAC23C8CB85A2E85E15 /* GTContext.m */,
-				258CCC277AB48161F203F343D0E2C577 /* GTDefines.h */,
-				8A2B302311252522F049F7FEC557AC41 /* GTMediator.h */,
-				97178707B50961CF7D1429AFC837F123 /* GTMediator.m */,
-				BFE06C52C21844909E8FC84BCF5D2B0E /* GTMediatorNavigator.h */,
-				1F359B0CC90DCEFE7745EAB8D0C5A3FD /* GTMediatorNavigator.m */,
-				E798B782B8B689C1D15E87F63DD26D3C /* GTModuleManager.h */,
-				CDE1306AB2BFA5AA175E615043176580 /* GTModuleManager.m */,
-				D1D52772E25A4A5F611A91D39CD4A0DA /* GTModuleProtocol.h */,
-				6C864547FBA1BABF26C045699116ACCD /* GTRouter.h */,
-				619B594993B01B912D54D0CF5A130B57 /* GTRouter.m */,
-				FBF406B61BB0D0D2336E0FD257CE95CA /* GTServiceManager.h */,
-				326CB44C2A8C8419817CACBD9E8815DF /* GTServiceManager.m */,
-				78AC6FC660AE661EBBF82DD2630494E0 /* GTServiceProtocol.h */,
-				FE7044B13AB1DCCEBC35B1DE41E89E11 /* GTTimeProfiler.h */,
-				3C35C4A15447F469EF7D0B60BC3C0DD6 /* GTTimeProfiler.m */,
-				570B3B4CC5AD460BBDAF6B83D88749F9 /* GTWatchDog.h */,
-				F2ADD77CD975C18BFA5B0935E6ABF73A /* GTWatchDog.m */,
-				1625BD34ECEACA2A293E2D4626169F88 /* Pod */,
-				DCF3EC754C2DEBE9C3EE5DB61E6B2342 /* Support Files */,
+				5ABA1E4F3E7D1FF545FE9E491D42C0C7 /* GTMediator-iOS12.0.modulemap */,
+				F5F6CE07C9F84D66D293E4206B499EA0 /* GTMediator-iOS12.0.xcconfig */,
+				7A07FE175F8C20CFC841CA009B1B608C /* GTMediator-iOS12.0-dummy.m */,
+				D8AB1482DBAC29489EA3A5ABD067996E /* GTMediator-iOS12.0-prefix.pch */,
+				43D3EFBDB3AAFEA12B58156FDCADBB83 /* GTMediator-iOS12.0-umbrella.h */,
+				4A63FEC45DA4B56283F18875BBC36A5B /* GTMediator-iOS9.3.modulemap */,
+				9B7258685B7318830F94B3EE2728D2AF /* GTMediator-iOS9.3.xcconfig */,
+				6CD5716C4FD56050BEC8A2AC451790FA /* GTMediator-iOS9.3-dummy.m */,
+				41EA46539A8B18399CDA391ED21BBBE3 /* GTMediator-iOS9.3-prefix.pch */,
+				61519BA6EBC2802F5A471FC60C2D3DCD /* GTMediator-iOS9.3-umbrella.h */,
+				66A6A5667BECCF64B53B3088C1F2070D /* Info.plist */,
+				369C43C9B4ECEF359E5CC37A41558EBC /* Info.plist */,
 			);
-			name = GTMediator;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTMediator-iOS12.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		09DB2AB26774496FC597BE3D3D370246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38525BEE0CFA49AA1F0EB6FAC39A6B1A /* GTAnnotation.h in Headers */,
+				8BC4790196831B5EAC7F2FCD6072F415 /* GTClientDelegate.h in Headers */,
+				05178BD9C2B4914D028CCCF140BDC10A /* GTCommon.h in Headers */,
+				C471E2D1D0F19B02927FCB84431DF7EB /* GTConfig.h in Headers */,
+				126E3F2408CFCF457E1EE69741C4EF12 /* GTContext.h in Headers */,
+				C4BE311AE8259C8C3695138FA5DD662A /* GTDefines.h in Headers */,
+				C9EB5399B174D4B37186CF2B7070BAC3 /* GTMediator-iOS9.3-umbrella.h in Headers */,
+				015261C042EB9F4349525607E4E7E838 /* GTMediator.h in Headers */,
+				90FD5C357EBBC305D7EF81BC78B8F9A7 /* GTMediatorNavigator.h in Headers */,
+				EB8A552A72F8C63B573461FCDC8AA1D4 /* GTMediatorTipViewController.h in Headers */,
+				A308C9C89647F3655024A3E14285452B /* GTModuleManager.h in Headers */,
+				14CFB81D905C3868F5C665245AE1A4BC /* GTModuleProtocol.h in Headers */,
+				11CD7AEA746D15D09B38F8677340AF57 /* GTRouter.h in Headers */,
+				DC067A521AEEE22DA53B5C3FEC8B5EA7 /* GTServiceManager.h in Headers */,
+				A8D6A438C583F83C063C5AF52A81515A /* GTServiceProtocol.h in Headers */,
+				97773CD0A8D62019546553B4404F0622 /* GTTimeProfiler.h in Headers */,
+				FEB1F1E37E32F13B910C9225F855D446 /* GTWatchDog.h in Headers */,
+				EBD6B29310A7B533456B77860299D5C4 /* UIViewController+NavigationTip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		536E6BE20121DE9936BFFE5519802BBF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,72 +413,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EA741020AE5930DC28BA37F72026DFD /* Headers */ = {
+		D754FAEBEF36503012E117486C12D30F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D8446F37F180092AFA1E3151CCFFCA /* GTAnnotation.h in Headers */,
-				359A61B102C7CA39A1C4AE4D57FCB751 /* GTClientDelegate.h in Headers */,
-				5F61AFE46AB9E38437B21B0473473856 /* GTCommon.h in Headers */,
-				CBCCBB3AE38692F2543C55EA1331339D /* GTConfig.h in Headers */,
-				D1D1672E31B60CF5E8D2C419B9DCCCBE /* GTContext.h in Headers */,
-				8EC1ED5ED393E8F766A67876F3D9C6B5 /* GTDefines.h in Headers */,
-				B713A7E5DCEDCD8A2E5A790D792409D5 /* GTMediator-iOS12.0-umbrella.h in Headers */,
-				8A726BEB3B60B2A370CF14CC5A7CBE92 /* GTMediator.h in Headers */,
-				238C85F190502B391103956F20C4D106 /* GTMediatorNavigator.h in Headers */,
-				A684ED1968BFC36A213F9F1ABB5E55F1 /* GTModuleManager.h in Headers */,
-				A1AF0170879DECB2C7E6BDF1631D667F /* GTModuleProtocol.h in Headers */,
-				C34F8C192B662EBB0D25DEBDDB73671E /* GTRouter.h in Headers */,
-				3F1D58C90A8A2A9A16175B8BD51283B3 /* GTServiceManager.h in Headers */,
-				C56A64EE23FB9A958014A0FEB59B1EBE /* GTServiceProtocol.h in Headers */,
-				DADA87C7E4E4782351872E0D9B90E272 /* GTTimeProfiler.h in Headers */,
-				410EF8799866384DCA1F73AB6434045E /* GTWatchDog.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F92751700FB9A7380403F0C18C1A2901 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62555367E1369D221DC5C4C4EB9D29D2 /* GTAnnotation.h in Headers */,
-				2A361768D375704B810F8BD6A427CE9E /* GTClientDelegate.h in Headers */,
-				D4119BEFE733B3C581F0C40B09579461 /* GTCommon.h in Headers */,
-				90BD800029E765CFDCCBA6A4A2907013 /* GTConfig.h in Headers */,
-				EDD2B2A725055A335EDB397D0A6ECB0F /* GTContext.h in Headers */,
-				0FADF07FB3D2968638B9DFEACE1B9A60 /* GTDefines.h in Headers */,
-				8299FAC9972AFE7FF1AD72D61E40A687 /* GTMediator-iOS9.3-umbrella.h in Headers */,
-				C712F92977F007098438CE0F73959E57 /* GTMediator.h in Headers */,
-				3630A3C40EB44E36D9BBF7956D2AEB60 /* GTMediatorNavigator.h in Headers */,
-				C3EA69D0AC744FD88A15B4DF87D85945 /* GTModuleManager.h in Headers */,
-				631DCE3D77DE69A7A08681D43F63B890 /* GTModuleProtocol.h in Headers */,
-				21B262FF363579230F5A0E12086AE30F /* GTRouter.h in Headers */,
-				BBE1E7404ACF8975487D05DF830091E9 /* GTServiceManager.h in Headers */,
-				88BD33C64D1718518573038FAEC5B3DC /* GTServiceProtocol.h in Headers */,
-				7A7F50AC9850A80077E177084F23100A /* GTTimeProfiler.h in Headers */,
-				8F2304378DB14ECA36FEBC645CC28332 /* GTWatchDog.h in Headers */,
+				294F73B3E26A066881D970DC6CB5AB52 /* GTAnnotation.h in Headers */,
+				43A6F1A9D71EDE23F637AD70741CF8B5 /* GTClientDelegate.h in Headers */,
+				13442C7B172DE719B8068AAB0E1AA601 /* GTCommon.h in Headers */,
+				9C84901C1446AC1C69558A940B043EF0 /* GTConfig.h in Headers */,
+				C993F3638D0B510760DF34708C476B3C /* GTContext.h in Headers */,
+				198DD985CC165946F1E50DE3E54B804B /* GTDefines.h in Headers */,
+				CC3153F82F143F89AF1CFDB08714D5E3 /* GTMediator-iOS12.0-umbrella.h in Headers */,
+				A8F9750F645E7F3B349237B7CD78626A /* GTMediator.h in Headers */,
+				23214898CD93383B0C9436680A50E15B /* GTMediatorNavigator.h in Headers */,
+				E02DB55D37A11E67ABF78C8C826B37F3 /* GTMediatorTipViewController.h in Headers */,
+				2F5793716A2125D6F8AC4B9FD9942D44 /* GTModuleManager.h in Headers */,
+				46DA6BD767278CB1476F420CD849B5C0 /* GTModuleProtocol.h in Headers */,
+				19774370263A23DC1E347EE7FC825E5A /* GTRouter.h in Headers */,
+				B11416FFE32D5D7FF0DBCBFF0698B9DB /* GTServiceManager.h in Headers */,
+				3AAC1C327751FDD48C81FA089C1CB49F /* GTServiceProtocol.h in Headers */,
+				7C78EBFA6B00D889A19724CD5FB95365 /* GTTimeProfiler.h in Headers */,
+				E7C16C5DBDBEE84642E2F644EDC4CE7F /* GTWatchDog.h in Headers */,
+				2259416DDCAD82BB498ABAC3BF4F34CB /* UIViewController+NavigationTip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24F8E43B6575B3FA7F7C82BD0D64792B /* GTMediator-iOS12.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EE750FEF0EBE2497D031FF6118026E3 /* Build configuration list for PBXNativeTarget "GTMediator-iOS12.0" */;
-			buildPhases = (
-				E121C3A4D6DE5D2988F5DEA029B71BEF /* Sources */,
-				AFE698F0A723DF0D693871D1CAF413CA /* Frameworks */,
-				6EA741020AE5930DC28BA37F72026DFD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GTMediator-iOS12.0";
-			productName = "GTMediator-iOS12.0";
-			productReference = 778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		46A4324AE227E88B90B7AD0682469396 /* Pods-GTMediatorSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AFEB2693AFCBC9C9D37F430BA6BF9A9 /* Build configuration list for PBXNativeTarget "Pods-GTMediatorSwift" */;
@@ -474,13 +477,13 @@
 			productReference = 01B5D5D8E6DC145D23B642DADB45A929 /* Pods_GTMediator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5B18A8A0B49B16F538BC98D1634CCC3 /* GTMediator-iOS9.3 */ = {
+		66E03F0D636A8D5F4B28088A4DDF2127 /* GTMediator-iOS9.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F8BAFF9419FEB7313F7F1AFA82DA443 /* Build configuration list for PBXNativeTarget "GTMediator-iOS9.3" */;
+			buildConfigurationList = 526D791AE7B77151F128039CBC0B97BA /* Build configuration list for PBXNativeTarget "GTMediator-iOS9.3" */;
 			buildPhases = (
-				0E770F545F0CA4DA17BBEEDAE335AB52 /* Sources */,
-				DA00697E2CF1DFFA0E6E1F087EF5A38F /* Frameworks */,
-				F92751700FB9A7380403F0C18C1A2901 /* Headers */,
+				75A0E221ED92745DB98733D30FF01714 /* Sources */,
+				2B7FAAAD4109FE6E48306B3464262D2B /* Frameworks */,
+				09DB2AB26774496FC597BE3D3D370246 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -491,6 +494,23 @@
 			productReference = 877ED24F2A3BFD745D53EF60BB7C4D47 /* GTMediator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CD2206533E921949C0A91827C5352FD1 /* GTMediator-iOS12.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971F971E9148D0567E95C1703BA16380 /* Build configuration list for PBXNativeTarget "GTMediator-iOS12.0" */;
+			buildPhases = (
+				6A1C83D54D7CC99112055EFE18B1898C /* Sources */,
+				DDE725DF87561E70D669DCCD05EE0D22 /* Frameworks */,
+				D754FAEBEF36503012E117486C12D30F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GTMediator-iOS12.0";
+			productName = "GTMediator-iOS12.0";
+			productReference = 778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -498,7 +518,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -512,8 +532,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24F8E43B6575B3FA7F7C82BD0D64792B /* GTMediator-iOS12.0 */,
-				D5B18A8A0B49B16F538BC98D1634CCC3 /* GTMediator-iOS9.3 */,
+				CD2206533E921949C0A91827C5352FD1 /* GTMediator-iOS12.0 */,
+				66E03F0D636A8D5F4B28088A4DDF2127 /* GTMediator-iOS9.3 */,
 				63976D454E33DEB9635674ABC39C5849 /* Pods-GTMediator_Example */,
 				46A4324AE227E88B90B7AD0682469396 /* Pods-GTMediatorSwift */,
 			);
@@ -521,25 +541,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E770F545F0CA4DA17BBEEDAE335AB52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A4CE4F220F7B33B80E6F711D36AF53D /* GTAnnotation.m in Sources */,
-				F688FFFC2505BF3C6BCF78348D4B8C38 /* GTClientDelegate.m in Sources */,
-				80AAB50D3D2AB79C2DBAE57EB464D1CE /* GTConfig.m in Sources */,
-				8DA93A20DFEEC1FDDDDBE6396B163FDA /* GTContext.m in Sources */,
-				E6B898C37781B376012A966F81F5F4A5 /* GTMediator-iOS9.3-dummy.m in Sources */,
-				6CAA99301C29FA642CB12F98B98B5063 /* GTMediator.m in Sources */,
-				6994429A858887423BFF52910B248C77 /* GTMediatorNavigator.m in Sources */,
-				F380D8CD64B7FC2AFE9C994D0214D7CE /* GTModuleManager.m in Sources */,
-				F6D3A7AB8A685EC989931EAECF141A32 /* GTRouter.m in Sources */,
-				E032F48EB9812DB78513143C705E3E5C /* GTServiceManager.m in Sources */,
-				979F10F673B92384D2067A6601A6302F /* GTTimeProfiler.m in Sources */,
-				C10504E266A8041489CE122DFDDD6B11 /* GTWatchDog.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BCBF324606C860B1DA55C5E97BEE7CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,22 +549,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E121C3A4D6DE5D2988F5DEA029B71BEF /* Sources */ = {
+		6A1C83D54D7CC99112055EFE18B1898C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF75FA79CC976C4A8F943F55FD82D1 /* GTAnnotation.m in Sources */,
-				6E294E05A8515EE830464B4C38558DCA /* GTClientDelegate.m in Sources */,
-				2AFEFEC10F89B9FB12CBE05ED3E9C294 /* GTConfig.m in Sources */,
-				03D8B61C43A6CFA24F88E8096AA43459 /* GTContext.m in Sources */,
-				E63EF995B8E9F95D30168211CDBA059E /* GTMediator-iOS12.0-dummy.m in Sources */,
-				CEB99B53B2BC31570485C776ADC0ACD1 /* GTMediator.m in Sources */,
-				D5FAFF11577B97D3A543AE86BCECEB5F /* GTMediatorNavigator.m in Sources */,
-				C41B55465DD3203F2FCAF663B658FA15 /* GTModuleManager.m in Sources */,
-				E16B7D98AAD1692F2613957719EC7650 /* GTRouter.m in Sources */,
-				ABD8F3267F72E8665A3815BC9F4D9AE6 /* GTServiceManager.m in Sources */,
-				244043F80A721AAFC0D458F8EAF18EC5 /* GTTimeProfiler.m in Sources */,
-				9DCD50E7E3F33EA41BE568A2843B1BDF /* GTWatchDog.m in Sources */,
+				29832A731E70BB8A86C744885AE68038 /* GTAnnotation.m in Sources */,
+				5590975EB1A76423C2FB065658DF9100 /* GTClientDelegate.m in Sources */,
+				5935D89E665FEDEE5068A8080CC973DE /* GTConfig.m in Sources */,
+				ADF2D50113A3CF3D224A3EF4A38FB59D /* GTContext.m in Sources */,
+				E448601C9E5B603899E3EF818212341B /* GTMediator-iOS12.0-dummy.m in Sources */,
+				47A63A6A538E32D018E11CED8D93BA8B /* GTMediator.m in Sources */,
+				2E11B793C5774D84A5A2CEF58FC96BD1 /* GTMediatorNavigator.m in Sources */,
+				983B42D897D83B03EAA288AFB46E915F /* GTMediatorTipViewController.m in Sources */,
+				B521A61D2CBEB00AF62944CD86661B2C /* GTModuleManager.m in Sources */,
+				3C880DE3B711EEF679DB926F7EF3373B /* GTRouter.m in Sources */,
+				ED57C76F9978C7E6F26112933E9E664E /* GTServiceManager.m in Sources */,
+				34FE529594E69CB2A4516D553A2920E0 /* GTTimeProfiler.m in Sources */,
+				1C1C57FC55073A62AE17ED9E056E369E /* GTWatchDog.m in Sources */,
+				10F82522431B538BB2D6D3C40DB73DC6 /* UIViewController+NavigationTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A0E221ED92745DB98733D30FF01714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666808C6D21BA654A2A662FAA0E6F7E /* GTAnnotation.m in Sources */,
+				E02979039E2C185EF6907CBF60242F41 /* GTClientDelegate.m in Sources */,
+				FEEE97E8593C54C2687E209E223DAE0D /* GTConfig.m in Sources */,
+				9593CC1EB120F3A5987A664F9DDB515F /* GTContext.m in Sources */,
+				8625D2A924020B5414B2216B6AF2FA99 /* GTMediator-iOS9.3-dummy.m in Sources */,
+				40F6414CC37299FBC96FEAEC81CA7D3F /* GTMediator.m in Sources */,
+				7DD3B64E109CBA7AD597C30D3B3CCC32 /* GTMediatorNavigator.m in Sources */,
+				F0772A7CE0FE11A0B1BC3EA758E59603 /* GTMediatorTipViewController.m in Sources */,
+				698203BDEC8F8B95966C26C2AC933056 /* GTModuleManager.m in Sources */,
+				FCCFA4A89C3922ACF9E6FE19B216FC88 /* GTRouter.m in Sources */,
+				995D854578C7EDA6CB06DB417C2F78C0 /* GTServiceManager.m in Sources */,
+				A405876E21C45DDBD3DC9DA88DBDC2F6 /* GTTimeProfiler.m in Sources */,
+				90E60B93207D1AA2A81385099872986E /* GTWatchDog.m in Sources */,
+				121C07BE24AAAE954A2A90DBF19E220B /* UIViewController+NavigationTip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,21 +605,51 @@
 		013E17CEB4FB08A900F03FDC4D4E6285 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GTMediator-iOS9.3";
-			target = D5B18A8A0B49B16F538BC98D1634CCC3 /* GTMediator-iOS9.3 */;
+			target = 66E03F0D636A8D5F4B28088A4DDF2127 /* GTMediator-iOS9.3 */;
 			targetProxy = 4E54FE85A5F522448B3EE683DC6533A8 /* PBXContainerItemProxy */;
 		};
 		936420DA69D165B3C8423E820CDAE4D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GTMediator-iOS12.0";
-			target = 24F8E43B6575B3FA7F7C82BD0D64792B /* GTMediator-iOS12.0 */;
+			target = CD2206533E921949C0A91827C5352FD1 /* GTMediator-iOS12.0 */;
 			targetProxy = 10281B5C6AB8B18FDC7BBB807DFD90DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32B24E28D70CDB37BBFAFD6136D07563 /* Debug */ = {
+		08A63533FD8C04364BBBD19673EE72A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 310EEB56B9D15EFB522640AB4F0F3898 /* GTMediator-iOS12.0.xcconfig */;
+			baseConfigurationReference = 9B7258685B7318830F94B3EE2728D2AF /* GTMediator-iOS9.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS9.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap";
+				PRODUCT_NAME = GTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26726A407AD8734EA3AE85A0A294A5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F6CE07C9F84D66D293E4206B499EA0 /* GTMediator-iOS12.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -618,10 +672,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -637,7 +692,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -645,7 +699,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -699,7 +752,6 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -707,7 +759,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -742,9 +793,9 @@
 			};
 			name = Release;
 		};
-		7542D69C0359D8F19010AD6D570541BD /* Debug */ = {
+		81EA37AAFF68BF7AE880A9CA7E14AFFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C24F73DF26263B1B2FD1310C8B820AB /* GTMediator-iOS9.3.xcconfig */;
+			baseConfigurationReference = F5F6CE07C9F84D66D293E4206B499EA0 /* GTMediator-iOS12.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,51 +806,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS9.3/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS12.0/GTMediator-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS12.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS12.0/GTMediator-iOS12.0.modulemap";
 				PRODUCT_NAME = GTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		98FB161B0213BF7D9E651792E19F8EE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C24F73DF26263B1B2FD1310C8B820AB /* GTMediator-iOS9.3.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS9.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap";
-				PRODUCT_NAME = GTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C751C754F339044AF5287930DEBEC766 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -834,6 +856,35 @@
 			};
 			name = Release;
 		};
+		E65A938D4FEF5357AECEC64A7C552939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7258685B7318830F94B3EE2728D2AF /* GTMediator-iOS9.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS9.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap";
+				PRODUCT_NAME = GTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		ECD4AA12B2E7DAEE0112C37327377B98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 062B3A098F1017D163D494DC568D818F /* Pods-GTMediatorSwift.release.xcconfig */;
@@ -860,37 +911,6 @@
 				PRODUCT_NAME = Pods_GTMediatorSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EE59C5A8D489F1D9338B212A12BFF821 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 310EEB56B9D15EFB522640AB4F0F3898 /* GTMediator-iOS12.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GTMediator-iOS12.0/GTMediator-iOS12.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTMediator-iOS12.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GTMediator-iOS12.0/GTMediator-iOS12.0.modulemap";
-				PRODUCT_NAME = GTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -974,6 +994,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		526D791AE7B77151F128039CBC0B97BA /* Build configuration list for PBXNativeTarget "GTMediator-iOS9.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65A938D4FEF5357AECEC64A7C552939 /* Debug */,
+				08A63533FD8C04364BBBD19673EE72A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AFEB2693AFCBC9C9D37F430BA6BF9A9 /* Build configuration list for PBXNativeTarget "Pods-GTMediatorSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -983,20 +1012,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F8BAFF9419FEB7313F7F1AFA82DA443 /* Build configuration list for PBXNativeTarget "GTMediator-iOS9.3" */ = {
+		971F971E9148D0567E95C1703BA16380 /* Build configuration list for PBXNativeTarget "GTMediator-iOS12.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7542D69C0359D8F19010AD6D570541BD /* Debug */,
-				98FB161B0213BF7D9E651792E19F8EE7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7EE750FEF0EBE2497D031FF6118026E3 /* Build configuration list for PBXNativeTarget "GTMediator-iOS12.0" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32B24E28D70CDB37BBFAFD6136D07563 /* Debug */,
-				EE59C5A8D489F1D9338B212A12BFF821 /* Release */,
+				81EA37AAFF68BF7AE880A9CA7E14AFFA /* Debug */,
+				26726A407AD8734EA3AE85A0A294A5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

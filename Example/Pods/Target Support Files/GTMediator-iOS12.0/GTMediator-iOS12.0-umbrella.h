@@ -18,6 +18,7 @@
 #import "GTDefines.h"
 #import "GTMediator.h"
 #import "GTMediatorNavigator.h"
+#import "GTMediatorTipViewController.h"
 #import "GTModuleManager.h"
 #import "GTModuleProtocol.h"
 #import "GTRouter.h"
@@ -25,6 +26,7 @@
 #import "GTServiceProtocol.h"
 #import "GTTimeProfiler.h"
 #import "GTWatchDog.h"
+#import "UIViewController+NavigationTip.h"
 
 FOUNDATION_EXPORT double GTMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char GTMediatorVersionString[];

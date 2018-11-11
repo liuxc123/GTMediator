@@ -10,15 +10,14 @@
 /**
  路由类
  作用：1.负责控制模块间跳转的功能
-      2.动态注册服务
-      3.动态注册模块
-      4.动态注册
+      2.动态注册服务/模块
+      3.回调服务
  */
 
 static NSString *const GTRURLSchemeGlobalKey = @"URLGlobalScheme";
-static NSString *const GTRURLHostCallService = @"call.service.beehive";
-static NSString *const GTRURLHostRegister = @"register.beehive";
-static NSString *const GTRURLHostJumpViewController = @"jump.vc.beehive";
+static NSString *const GTRURLHostCallService = @"call.service.mediator";
+static NSString *const GTRURLHostRegister = @"register.mediator";
+static NSString *const GTRURLHostJumpViewController = @"jump.vc.mediator";
 static NSString *const GTRURLSubPathSplitPattern = @".";
 static NSString *const GTRURLQueryParamsKey = @"params";
 static NSString *const GTRURLFragmentViewControlerEnterModePush = @"push";
@@ -53,9 +52,9 @@ typedef void(^GTRPathComponentCustomHandler)(NSDictionary<NSString *, id> *param
 - (void)removePathComponent:(NSString *)pathComponentKey;
 
 
-//url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
-//url - >  mediator://register.beehive/pathComponentKey.protocolName/...?params={}(value url encode)
-//url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
+//url - >  mediator://call.service.mediator/pathComponentKey.protocolName.selector/...?params={}(value url encode)
+//url - >  mediator://register.mediator/pathComponentKey.protocolName/...?params={}(value url encode)
+//url - >  mediator://jump.vc.mediator/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
 //params -> {pathComponentKey:{paramName:paramValue,...},...}
 //when call service， paramName = @1,@2,...(order of paramValue)
 + (BOOL)canOpenURL:(NSURL *)URL;

@@ -34,6 +34,7 @@
         //when call service， paramName = @1,@2,...(order of paramValue)
         [GTRouter openURL:url withParams:@{@"HomeViewController": @{@"user_id": @15}} andThen:^(NSString *pathComponentKey, id obj, id returnValue) {
             NSLog(@"%@", pathComponentKey);
+            
         }];
     });
 }

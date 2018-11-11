@@ -8,15 +8,8 @@
 
 import UIKit
 
+
 class HomeModule: NSObject, GTModuleProtocol {
-    
-    func bundleName() -> String! {
-        return "GTMediatorSwift"
-    }
-    
-    func isSwift() -> Bool {
-        return true
-    }
     
     func modInit(_ context: GTContext!) {
         

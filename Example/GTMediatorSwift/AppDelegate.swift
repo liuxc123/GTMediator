@@ -25,10 +25,10 @@ class AppDelegate: GTClientDelegate {
         //url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
         //params -> {pathComponentKey:{paramName:paramValue,...},...}
         //when call service， paramName = @1,@2,...(order of paramValue)
-        let url = URL(string: "com.liuxc.GTMediatorSwift://jump.vc.beehive/HomeViewController")
-        let isOpen = GTRouter.canOpen(url! as URL)
-        print(isOpen)
-        print(GTRouter.global())
+//        let url = URL(string: "com.liuxc.GTMediatorSwift://jump.vc.beehive/HomeViewController")
+//        let isOpen = GTRouter.canOpen(url! as URL)
+//        print(isOpen)
+//        print(GTRouter.global())
 
         return true
     }

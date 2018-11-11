@@ -47,7 +47,7 @@ typedef enum {
 @end
 
 /**
- * 外部不能调用该类别中的方法，仅供Busmediator中调用
+ * 外部不能调用该类别中的方法，仅供GTMediator中调用
  */
 @interface GTMediatorNavigator (HookRouteBlock)
 

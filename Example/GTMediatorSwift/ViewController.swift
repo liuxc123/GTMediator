@@ -16,8 +16,17 @@ class ViewController: UIViewController {
         self.title = "首页"
         
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            //url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
+            //url - >  mediator://register.beehive/pathComponentKey.protocolName/...?params={}(value url encode)
+            //url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
+            //params -> {pathComponentKey:{paramName:paramValue,...},...}
+            //when call service， paramName = @1,@2,...(order of paramValue)
             let url = URL(string: "com.liuxc.GTMediatorSwift://jump.vc.beehive/HomeViewController")
-            GTRouter.open(url)
+            GTRouter.open(url, withParams: ["HomeViewController": ["user_id": 15]], andThen: { (pathComponentKey, obj, returnValue) in
+                print(pathComponentKey)
+                print(obj)
+                print(returnValue)
+            });
         }
     }
 
