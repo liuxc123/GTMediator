@@ -16,7 +16,7 @@
 
 @implementation GTMediatorNavigator
 
-+ (GTMediatorNavigator *)navigator {
++ (GTMediatorNavigator *)shareInstance {
     static GTMediatorNavigator *rootNavigator = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -44,7 +44,7 @@
     _routeBlock  = routeBlock;
 }
 
-- (void)showURLController:(nonnull UIViewController *)controller
+- (void)showController:(nonnull UIViewController *)controller
       baseViewController:(nullable UIViewController *)baseViewController
                routeMode:(NavigationMode)routeMode{
     if (routeMode == NavigationModeNone) {
@@ -230,6 +230,34 @@
     return (UIViewController *) navController;
 }
 
+//+ (UIViewController *)isViewControllerInTabContainer:(UIViewController *)controller {
+//    if (rootTabClassesDic == nil) {
+//        rootTabClassesDic = [[NSMutableDictionary alloc] initWithCapacity:2];
+//        UIViewController *rootViewContoller = [UIApplication sharedApplication].delegate.window.rootViewController;
+//        if (rootViewContoller && [rootViewContoller isKindOfClass:[UITabBarController class]]) {
+//            NSArray *tabControllers = ((UITabBarController *)rootViewContoller).viewControllers;
+//            [tabControllers enumerateObjectsUsingBlock:^(UIViewController *_Nonnull viewController, NSUInteger idx, BOOL * _Nonnull stop) {
+//                if ([viewController isKindOfClass:[UINavigationController class]]) {
+//                    viewController = [((UINavigationController *)viewController).viewControllers objectAtIndex:0];
+//                }
+//
+//                [rootTabClassesDic setObject:viewController forKey:NSStringFromClass([viewController class])];
+//            }];
+//        }
+//    }
+//
+//    if (rootTabClassesDic && rootTabClassesDic.count > 0) {
+//        NSString *controllerKey = NSStringFromClass([controller class]);
+//        if (controllerKey) {
+//            return [rootTabClassesDic objectForKey:controllerKey];
+//        } else {
+//            return nil;
+//        }
+//    } else {
+//        return nil;
+//    }
+//}
+
 @end
 
 @implementation GTMediatorNavigator (HookRouteBlock)
@@ -244,7 +272,7 @@
     }
 
     if (!success) {
-        [self showURLController:controller baseViewController:baseViewController routeMode:routeMode];
+        [self showController:controller baseViewController:baseViewController routeMode:routeMode];
     }
 }
 

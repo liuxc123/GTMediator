@@ -4,4 +4,5 @@
 
 #import <GTMediator/GTMediator.h>
 #import <GTMediator/GTRouter.h>
+#import <GTMediator/GTMediatorNavigator.h>
 

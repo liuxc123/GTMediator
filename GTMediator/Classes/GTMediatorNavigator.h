@@ -8,13 +8,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef enum {
+typedef NS_ENUM(NSUInteger, NavigationMode) {
     NavigationModeNone = 0,
-    NavigationModePush,     //push a viewController in NavigationController
+    NavigationModePush, //push a viewController in NavigationController
     NavigationModePresent,  //present a viewController in NavigationController
-    NavigationModeShare     //pop to the viewController already in NavigationController or tabBarController
-} NavigationMode;
-
+    NavigationModeShare  //pop to the viewController already in NavigationController or tabBarController
+};
 
 /**
  * @class GTMediatorNavigator
@@ -26,7 +25,7 @@ typedef enum {
 /**
  * 一个应用一个统一的navigator
  */
-+ (nonnull GTMediatorNavigator *)navigator;
++ (nonnull GTMediatorNavigator *)shareInstance;
 
 /**
  * 设置通用的拦截跳转方式；
@@ -40,9 +39,15 @@ typedef enum {
  *  @param baseViewController 展示的BaseViewController
  *  @param routeMode  展示的方式
  */
-- (void)showURLController:(nonnull UIViewController *)controller
+- (void)showController:(nonnull UIViewController *)controller
       baseViewController:(nullable UIViewController *)baseViewController
                routeMode:(NavigationMode)routeMode;
+
+
+/**
+ 是否是包含在Tabbar中
+ */
++ (UIViewController *)isViewControllerInTabContainer:(UIViewController *)controller;
 
 @end
 

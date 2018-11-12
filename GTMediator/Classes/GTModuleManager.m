@@ -18,6 +18,8 @@
 #define kModuleInfoLevelKey @"moduleLevel"
 #define kModuleInfoPriorityKey @"modulePriority"
 #define kModuleInfoHasInstantiatedKey @"moduleHasInstantiated"
+#define kModuleBundleNameKey @"moduleBundleName"
+
 
 static  NSString *kSetupSelector = @"modSetUp:";
 static  NSString *kInitSelector = @"modInit:";
@@ -152,6 +154,9 @@ static  NSString *kAppCustomSelector = @"modDidCustomEvent:";
     [self.GTModuleInfos enumerateObjectsUsingBlock:^(NSDictionary *module, NSUInteger idx, BOOL * _Nonnull stop) {
 
         NSString *classStr = [module objectForKey:kModuleInfoNameKey];
+//        if (!NSClassFromString([module objectForKey:kModuleInfoNameKey])) {
+//            classStr = [NSString stringWithFormat:@"%@.%@", [module objectForKey:kModuleBundleNameKey], [module objectForKey:kModuleInfoNameKey]];
+//        }
         Class moduleClass = NSClassFromString(classStr);
         BOOL hasInstantiated = ((NSNumber *)[module objectForKey:kModuleInfoHasInstantiatedKey]).boolValue;
         if (NSStringFromClass(moduleClass) && !hasInstantiated) {

@@ -11,6 +11,16 @@
 		045820272196D60A007E4BC3 /* HomeServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 045820262196D60A007E4BC3 /* HomeServiceImpl.m */; };
 		0458202A2196D7D5007E4BC3 /* GTMediator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 045820292196D7D5007E4BC3 /* GTMediator.plist */; };
 		0458202D2196D94F007E4BC3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458202C2196D94F007E4BC3 /* HomeViewController.m */; };
+		0458202F21991E8F007E4BC3 /* GTMediatorServices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0458202E21991E8F007E4BC3 /* GTMediatorServices.plist */; };
+		0458203121991F2B007E4BC3 /* GTMediator.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0458203021991F2B007E4BC3 /* GTMediator.plist */; };
+		0458203421996585007E4BC3 /* TradeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458203321996585007E4BC3 /* TradeModule.swift */; };
+		0458203621996599007E4BC3 /* TradeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458203521996599007E4BC3 /* TradeServiceProtocol.swift */; };
+		04582038219965B6007E4BC3 /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04582037219965B6007E4BC3 /* TradeViewController.swift */; };
+		0458203A21996640007E4BC3 /* TradeServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458203921996640007E4BC3 /* TradeServiceImpl.swift */; };
+		0458203F219967C0007E4BC3 /* UserTrackModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458203E219967C0007E4BC3 /* UserTrackModule.swift */; };
+		0458204721996846007E4BC3 /* UserTrackServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458204621996846007E4BC3 /* UserTrackServiceProtocol.swift */; };
+		0458204921996858007E4BC3 /* UserTrackServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458204821996858007E4BC3 /* UserTrackServiceImpl.swift */; };
+		0458204B2199689A007E4BC3 /* UserTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458204A2199689A007E4BC3 /* UserTrackViewController.swift */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -58,6 +68,16 @@
 		045820292196D7D5007E4BC3 /* GTMediator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GTMediator.plist; sourceTree = "<group>"; };
 		0458202B2196D94F007E4BC3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0458202C2196D94F007E4BC3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0458202E21991E8F007E4BC3 /* GTMediatorServices.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GTMediatorServices.plist; sourceTree = "<group>"; };
+		0458203021991F2B007E4BC3 /* GTMediator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GTMediator.plist; path = GTMediator/GTMediator.plist; sourceTree = SOURCE_ROOT; };
+		0458203321996585007E4BC3 /* TradeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModule.swift; sourceTree = "<group>"; };
+		0458203521996599007E4BC3 /* TradeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeServiceProtocol.swift; sourceTree = "<group>"; };
+		04582037219965B6007E4BC3 /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
+		0458203921996640007E4BC3 /* TradeServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeServiceImpl.swift; sourceTree = "<group>"; };
+		0458203E219967C0007E4BC3 /* UserTrackModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackModule.swift; sourceTree = "<group>"; };
+		0458204621996846007E4BC3 /* UserTrackServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackServiceProtocol.swift; sourceTree = "<group>"; };
+		0458204821996858007E4BC3 /* UserTrackServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackServiceImpl.swift; sourceTree = "<group>"; };
+		0458204A2199689A007E4BC3 /* UserTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTrackViewController.swift; sourceTree = "<group>"; };
 		16B8F0BD1FDA0D04F1F4B600 /* Pods-GTMediatorSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMediatorSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTMediatorSwift/Pods-GTMediatorSwift.release.xcconfig"; sourceTree = "<group>"; };
 		2F78F2DB28AF2F40B153C0AA /* Pods_GTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3AB5B6A7AB70020DAFB49 /* GTMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTMediator.podspec; path = ../GTMediator.podspec; sourceTree = "<group>"; };
@@ -148,6 +168,76 @@
 				0458202C2196D94F007E4BC3 /* HomeViewController.m */,
 			);
 			name = HomeModule;
+			sourceTree = "<group>";
+		};
+		0458203221996550007E4BC3 /* TradeModule */ = {
+			isa = PBXGroup;
+			children = (
+				04582042219967E2007E4BC3 /* Business */,
+				04582041219967D7007E4BC3 /* Service */,
+				04582040219967CD007E4BC3 /* Module */,
+			);
+			path = TradeModule;
+			sourceTree = "<group>";
+		};
+		0458203B219967A8007E4BC3 /* UserTrack */ = {
+			isa = PBXGroup;
+			children = (
+				0458204521996825007E4BC3 /* Module */,
+				045820442199681A007E4BC3 /* Service */,
+				0458204321996811007E4BC3 /* Business */,
+			);
+			path = UserTrack;
+			sourceTree = "<group>";
+		};
+		04582040219967CD007E4BC3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0458203321996585007E4BC3 /* TradeModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		04582041219967D7007E4BC3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0458203521996599007E4BC3 /* TradeServiceProtocol.swift */,
+				0458203921996640007E4BC3 /* TradeServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04582042219967E2007E4BC3 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				04582037219965B6007E4BC3 /* TradeViewController.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		0458204321996811007E4BC3 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				0458204A2199689A007E4BC3 /* UserTrackViewController.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		045820442199681A007E4BC3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0458204621996846007E4BC3 /* UserTrackServiceProtocol.swift */,
+				0458204821996858007E4BC3 /* UserTrackServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0458204521996825007E4BC3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0458203E219967C0007E4BC3 /* UserTrackModule.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -262,12 +352,16 @@
 			children = (
 				F13D339E219724D0000FB2EA /* AppDelegate.swift */,
 				F13D33A0219724D0000FB2EA /* ViewController.swift */,
+				0458203B219967A8007E4BC3 /* UserTrack */,
+				0458203221996550007E4BC3 /* TradeModule */,
 				F13D33AE219724DD000FB2EA /* HomeModule */,
 				F13D33A2219724D0000FB2EA /* Main.storyboard */,
 				F13D33A5219724D1000FB2EA /* Assets.xcassets */,
 				F13D33A7219724D1000FB2EA /* LaunchScreen.storyboard */,
 				F13D33AA219724D1000FB2EA /* Info.plist */,
 				F13D33B5219725B0000FB2EA /* GTMediatorSwift-Bridging-Header.h */,
+				0458203021991F2B007E4BC3 /* GTMediator.plist */,
+				0458202E21991E8F007E4BC3 /* GTMediatorServices.plist */,
 			);
 			path = GTMediatorSwift;
 			sourceTree = "<group>";
@@ -413,6 +507,8 @@
 			files = (
 				F13D33A9219724D1000FB2EA /* LaunchScreen.storyboard in Resources */,
 				F13D33A6219724D1000FB2EA /* Assets.xcassets in Resources */,
+				0458202F21991E8F007E4BC3 /* GTMediatorServices.plist in Resources */,
+				0458203121991F2B007E4BC3 /* GTMediator.plist in Resources */,
 				F13D33A4219724D0000FB2EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,10 +646,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0458203A21996640007E4BC3 /* TradeServiceImpl.swift in Sources */,
 				F13D33B421972543000FB2EA /* HomeServiceProtocol.swift in Sources */,
 				F13D33B0219724F3000FB2EA /* HomeModule.swift in Sources */,
+				0458203421996585007E4BC3 /* TradeModule.swift in Sources */,
+				0458204921996858007E4BC3 /* UserTrackServiceImpl.swift in Sources */,
+				04582038219965B6007E4BC3 /* TradeViewController.swift in Sources */,
+				0458204721996846007E4BC3 /* UserTrackServiceProtocol.swift in Sources */,
+				0458203621996599007E4BC3 /* TradeServiceProtocol.swift in Sources */,
 				F13D33A1219724D0000FB2EA /* ViewController.swift in Sources */,
+				0458204B2199689A007E4BC3 /* UserTrackViewController.swift in Sources */,
 				F13D339F219724D0000FB2EA /* AppDelegate.swift in Sources */,
+				0458203F219967C0007E4BC3 /* UserTrackModule.swift in Sources */,
 				F13D33B221972507000FB2EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -803,7 +907,7 @@
 				DEVELOPMENT_TEAM = 5SBN9974PS;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GTMediatorSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -836,7 +940,7 @@
 				DEVELOPMENT_TEAM = 5SBN9974PS;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GTMediatorSwift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

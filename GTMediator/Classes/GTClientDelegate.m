@@ -144,7 +144,7 @@
     }
 }
 
-- (void)application:(UIApplication *)application didFailToContinueUserActivityWithType:(NSString *)userActivityType error:(NSError *)error
+- (void)application:(UIApplication *)application didFailToContinueUserActivityWithType:(NSString *)userActivityType error:(NSError *)error API_AVAILABLE(ios(8.0))
 {
     if([UIDevice currentDevice].systemVersion.floatValue >= 8.0f){
         [[GTMediator shareInstance].context.userActivityItem setUserActivityType: userActivityType];
@@ -153,7 +153,7 @@
     }
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler NS_AVAILABLE_IOS(8_0)
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler
 {
     if([UIDevice currentDevice].systemVersion.floatValue >= 8.0f){
         [[GTMediator shareInstance].context.userActivityItem setUserActivity: userActivity];

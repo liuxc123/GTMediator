@@ -14,19 +14,39 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "首页"
-        
+
+        GTMediatorNavigator.shareInstance().setHookRouteBlock { [unowned self] (controller, baseController, navigationMode) -> Bool in
+//            let alert = UIAlertController(title: "提示", message: "HockRoute", preferredStyle: .alert)
+//            let cancelAction = UIAlertAction(title: "确定", style: .cancel, handler: nil)
+//            alert.addAction(cancelAction)
+//            self.present(alert, animated: true, completion: nil)
+
+            
+
+            return true
+        }
+
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
             //url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
             //url - >  mediator://register.beehive/pathComponentKey.protocolName/...?params={}(value url encode)
             //url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
             //params -> {pathComponentKey:{paramName:paramValue,...},...}
             //when call service， paramName = @1,@2,...(order of paramValue)
-            let url = URL(string: "com.liuxc.GTMediatorSwift://jump.vc.beehive/HomeViewController")
-            GTRouter.open(url, withParams: ["HomeViewController": ["user_id": 15]], andThen: { (pathComponentKey, obj, returnValue) in
-                print(pathComponentKey)
-                print(obj)
-                print(returnValue)
-            });
+
+            //params={"HomeViewController":{"user_id":5}}
+//            let url = URL(string: "com.liuxc.mediator://jump.vc.mediator/HomeViewController?params=%7b%22HomeViewController%22%3a%7b%22user_id%22%3a5%7d%7d")
+//
+//            GTRouter.open(url)
+//            GTRouter.open(url, withParams: ["HomeViewController": ["userId": 15]], andThen: { (pathComponentKey, obj, returnValue) in
+//
+//                print(pathComponentKey)
+//                print(obj)
+//                print(returnValue)
+//            });
+
+            let homeVC = GTMediator.shareInstance().createService(HomeServiceProtocol.self)
+            homeVC 
+            GTMediatorNavigator.shareInstance().show(homeVC as! UIViewController, baseViewController: self, routeMode: .push)
         }
     }
 

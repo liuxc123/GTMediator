@@ -68,7 +68,7 @@ typedef void (^watchdogFiredCallBack)(void);
 
 - (instancetype)initWithThreshold:(double)threshold strictMode:(BOOL)strictMode
 {
-    self = [self initWIthThreshold:threshold callBack:^() {
+    self = [self initWithThreshold:threshold callBack:^() {
         NSString *message = [NSString stringWithFormat:@"👮 Main thread was blocked 👮"];
         if (strictMode) {
             //避免后台切换导致进入断言
@@ -82,7 +82,7 @@ typedef void (^watchdogFiredCallBack)(void);
 }
 
 
-- (instancetype)initWIthThreshold:(double)threshold callBack:(watchdogFiredCallBack)callBack
+- (instancetype)initWithThreshold:(double)threshold callBack:(watchdogFiredCallBack)callBack
 {
     if (self = [self init]) {
         self.threshold = 0.4;//默认间隔

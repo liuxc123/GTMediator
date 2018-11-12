@@ -8,9 +8,9 @@
 
 import Foundation
 
-protocol HomeServiceProtocol: GTServiceProtocol {
-    
+@objc protocol HomeServiceProtocol: GTServiceProtocol {
 
-    
+    /// 注册tab页面
+    func registerViewController(vc: UIViewController, title: String, iconName: String?)
 
 }

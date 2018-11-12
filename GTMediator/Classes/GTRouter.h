@@ -40,6 +40,7 @@ typedef void(^GTRPathComponentCustomHandler)(NSDictionary<NSString *, id> *param
 
 //handler is a custom module or service solve function
 //处理一个自定义模块或服务解决功能
+//Swift必须注册模块或页面
 - (void)addPathComponent:(NSString *)pathComponentKey
                 forClass:(Class)mClass;
 - (void)addPathComponent:(NSString *)pathComponentKey

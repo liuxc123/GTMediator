@@ -17,6 +17,7 @@
 #import "GTModuleManager.h"
 #import "GTServiceManager.h"
 #import "GTContext.h"
+#import "GTMediatorNavigator.h"
 
 @interface NSObject (GTRetType)
 
@@ -428,7 +429,7 @@ static NSString *GTRURLGlobalScheme = nil;
                     } else {
                         obj = [[mClass alloc] init];
                     }
-//                    [obj setObject:obj withPropertys:finalParams];
+                    [self setObject:obj withPropertys:finalParams];
                     BOOL isLast = pathComponents.count - 1 ? YES : NO;
                     [self solveJumpWithViewController:(UIViewController *)obj andJumpMode:enterMode shouldAnimate:isLast];
                 } break;
@@ -633,15 +634,18 @@ static NSString *GTRURLGlobalScheme = nil;
                       shouldAnimate:(BOOL)animate
 {
     UIViewController *currentViewController = [self currentViewController];
+
+
+
     switch (enterMode) {
         case GTRViewControlerEnterModePush:
-            [currentViewController.navigationController pushViewController:viewController animated:animate];
+            [[GTMediatorNavigator shareInstance] showController:viewController baseViewController:currentViewController routeMode:NavigationModePush];
             break;
         case GTRViewControlerEnterModeModal:
-            [currentViewController presentViewController:viewController animated:animate completion:^{
-            }];
+            [[GTMediatorNavigator shareInstance] showController:viewController baseViewController:currentViewController routeMode:NavigationModePresent];
             break;
         case GTRViewControlerEnterModeShare:
+            [[GTMediatorNavigator shareInstance] showController:viewController baseViewController:currentViewController routeMode:NavigationModeShare];
             break;
         default:
             break;

@@ -7,6 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ GTTimeProfiler是用来进行计算时间性能方面的Profiler。
+ */
 @interface GTTimeProfiler : NSObject
 
 #pragma mark - Open API
