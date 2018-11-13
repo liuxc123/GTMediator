@@ -1,29 +1,22 @@
 # GTMediator
 
-[![CI Status](https://img.shields.io/travis/liuxc123/GTMediator.svg?style=flat)](https://travis-ci.org/liuxc123/GTMediator)
-[![Version](https://img.shields.io/cocoapods/v/GTMediator.svg?style=flat)](https://cocoapods.org/pods/GTMediator)
-[![License](https://img.shields.io/cocoapods/l/GTMediator.svg?style=flat)](https://cocoapods.org/pods/GTMediator)
-[![Platform](https://img.shields.io/cocoapods/p/GTMediator.svg?style=flat)](https://cocoapods.org/pods/GTMediator)
+GTMediator是根据[BeeHive](https://github.com/alibaba/BeeHive)修改的，规范了自己的命名规范，增加了自己的规则，跳转跳转方式。
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 安装
 
-## Requirements
-
-## Installation
-
-GTMediator is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+你可以在 Podfile 中加入下面一行代码来使用 GTMediator
 
 ```ruby
 pod 'GTMediator'
 ```
 
-## Author
+## 作者
 
 liuxc123, lxc_work@126.com
 
-## License
+## 声明
 
 GTMediator is available under the MIT license. See the LICENSE file for more info.
+
+
