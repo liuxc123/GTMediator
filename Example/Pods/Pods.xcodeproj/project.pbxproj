@@ -99,10 +99,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B5D5D8E6DC145D23B642DADB45A929 /* Pods_GTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMediator_Example.framework; path = "Pods-GTMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B5D5D8E6DC145D23B642DADB45A929 /* Pods_GTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		062B3A098F1017D163D494DC568D818F /* Pods-GTMediatorSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediatorSwift.release.xcconfig"; sourceTree = "<group>"; };
 		0C8EFA3E0101692EB144FA291FDA2544 /* Pods-GTMediatorSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediatorSwift-resources.sh"; sourceTree = "<group>"; };
-		20179583122E567B7189436D59D7B315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		20179583122E567B7189436D59D7B315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		24339127F6C802B33F3BEDED56B4E4EA /* GTModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleManager.h; path = GTMediator/Classes/GTModuleManager.h; sourceTree = "<group>"; };
 		369C43C9B4ECEF359E5CC37A41558EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C058AA66B92CE8255C9058974B7B79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,13 +114,13 @@
 		4363854AECEDD4438F0076F5B45554B6 /* GTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediator.m; path = GTMediator/Classes/GTMediator.m; sourceTree = "<group>"; };
 		43D3EFBDB3AAFEA12B58156FDCADBB83 /* GTMediator-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMediator-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
 		47CB47D624652056C462D4B6765288B5 /* GTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTConfig.h; path = GTMediator/Classes/GTConfig.h; sourceTree = "<group>"; };
-		48BF5D12243D65E9472E7A6B1FFDEEF5 /* Pods-GTMediatorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTMediatorSwift.modulemap"; sourceTree = "<group>"; };
-		4A63FEC45DA4B56283F18875BBC36A5B /* GTMediator-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GTMediator-iOS9.3.modulemap"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		48BF5D12243D65E9472E7A6B1FFDEEF5 /* Pods-GTMediatorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTMediatorSwift.modulemap"; sourceTree = "<group>"; };
+		4A63FEC45DA4B56283F18875BBC36A5B /* GTMediator-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "GTMediator-iOS9.3.modulemap"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.modulemap"; sourceTree = "<group>"; };
 		4AAE4F54F8C06FC5398F80B01175AB34 /* Pods-GTMediatorSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMediatorSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		54DA7D53B385FDF68883CFC4830A2ED3 /* GTTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTTimeProfiler.m; path = GTMediator/Classes/GTTimeProfiler.m; sourceTree = "<group>"; };
 		5939C42BF876CB54C51071F8BC0C1AF7 /* GTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTRouter.m; path = GTMediator/Classes/GTRouter.m; sourceTree = "<group>"; };
 		5973C1480BE1F08272B98066748EB7A5 /* GTMediatorNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediatorNavigator.h; path = GTMediator/Classes/GTMediatorNavigator.h; sourceTree = "<group>"; };
-		5ABA1E4F3E7D1FF545FE9E491D42C0C7 /* GTMediator-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GTMediator-iOS12.0.modulemap"; sourceTree = "<group>"; };
+		5ABA1E4F3E7D1FF545FE9E491D42C0C7 /* GTMediator-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "GTMediator-iOS12.0.modulemap"; sourceTree = "<group>"; };
 		5EEA862CE66ABB75C7FDD7D4A5B02CC9 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NavigationTip.m"; path = "GTMediator/Classes/UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 		5F41F8881C97A9E451AC92572F0A32DA /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigationTip.h"; path = "GTMediator/Classes/UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
 		61058910F2CDB802B484F76F55862BC9 /* GTClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTClientDelegate.h; path = GTMediator/Classes/GTClientDelegate.h; sourceTree = "<group>"; };
@@ -131,12 +131,12 @@
 		67F1E76E0DCA05C70D2B76202AB53144 /* GTAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTAnnotation.m; path = GTMediator/Classes/GTAnnotation.m; sourceTree = "<group>"; };
 		688711CD3B96E2BB8C37DA35202FF9CF /* GTWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTWatchDog.h; path = GTMediator/Classes/GTWatchDog.h; sourceTree = "<group>"; };
 		68AAE32DF5D127E95E25358426422B51 /* GTModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTModuleProtocol.h; path = GTMediator/Classes/GTModuleProtocol.h; sourceTree = "<group>"; };
-		69D34AC82F72A4314F34B90ED158A70E /* Pods_GTMediatorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMediatorSwift.framework; path = "Pods-GTMediatorSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D34AC82F72A4314F34B90ED158A70E /* Pods_GTMediatorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMediatorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF1E0998DD2F748C31153954FD90747 /* GTMediatorNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMediatorNavigator.m; path = GTMediator/Classes/GTMediatorNavigator.m; sourceTree = "<group>"; };
 		6C131098804F7E2378F2AA17A45C9CB7 /* GTServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTServiceManager.m; path = GTMediator/Classes/GTServiceManager.m; sourceTree = "<group>"; };
 		6CD5716C4FD56050BEC8A2AC451790FA /* GTMediator-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMediator-iOS9.3-dummy.m"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3-dummy.m"; sourceTree = "<group>"; };
 		7589534F38BE197B08094476F1E9C755 /* Pods-GTMediatorSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediatorSwift-frameworks.sh"; sourceTree = "<group>"; };
-		778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMediator.framework; path = "GTMediator-iOS12.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778CCD30910216F95105B509BEBFEB1C /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A07FE175F8C20CFC841CA009B1B608C /* GTMediator-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMediator-iOS12.0-dummy.m"; sourceTree = "<group>"; };
 		7AF1D4C48A6F90F7D4A44BE62A74B9C7 /* GTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTConfig.m; path = GTMediator/Classes/GTConfig.m; sourceTree = "<group>"; };
 		7D600BE94719582635D17F32972CF72D /* GTContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTContext.h; path = GTMediator/Classes/GTContext.h; sourceTree = "<group>"; };
@@ -144,16 +144,16 @@
 		80978904F28E5E15DCD3DD126A94E8AD /* Pods-GTMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8148F6929F08BBB0EA7562FCBF3AD821 /* GTContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTContext.m; path = GTMediator/Classes/GTContext.m; sourceTree = "<group>"; };
 		81B50E7E88AE2A2BC1D493F5E71BE8A3 /* GTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediator.h; path = GTMediator/Classes/GTMediator.h; sourceTree = "<group>"; };
-		877ED24F2A3BFD745D53EF60BB7C4D47 /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMediator.framework; path = "GTMediator-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877ED24F2A3BFD745D53EF60BB7C4D47 /* GTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8F900D944F3486D40B247483B8C333 /* GTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTRouter.h; path = GTMediator/Classes/GTRouter.h; sourceTree = "<group>"; };
 		91E93756A3CD56FB9967C9D1A96AFE9D /* Pods-GTMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B7258685B7318830F94B3EE2728D2AF /* GTMediator-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GTMediator-iOS9.3.xcconfig"; path = "../GTMediator-iOS9.3/GTMediator-iOS9.3.xcconfig"; sourceTree = "<group>"; };
-		A23FD83B57C268AE9579C5C88853889A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A23FD83B57C268AE9579C5C88853889A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AAA01E10935E0AB2DA62F012934370F5 /* Pods-GTMediatorSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMediatorSwift-acknowledgements.plist"; sourceTree = "<group>"; };
 		ACB22F289CCE5048F64520245356E75B /* Pods-GTMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMediator_Example-umbrella.h"; sourceTree = "<group>"; };
 		AFDB6217A4E5BABF87B4376A363A48A7 /* GTAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTAnnotation.h; path = GTMediator/Classes/GTAnnotation.h; sourceTree = "<group>"; };
-		B5EC73B56C4BF25C3D3D4EDD2B5B3D16 /* GTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5EC73B56C4BF25C3D3D4EDD2B5B3D16 /* GTMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GTMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6470B1EECA81B911B7C33373708E479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94D52CEB33D30571319B48041783BA3 /* GTServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTServiceManager.h; path = GTMediator/Classes/GTServiceManager.h; sourceTree = "<group>"; };
 		CA38683D8DA72508CDD52BFA01BF5D63 /* GTMediatorTipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMediatorTipViewController.h; path = GTMediator/Classes/GTMediatorTipViewController.h; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		E4B6A5D6DF876D91DDD021CC682392DF /* GTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCommon.h; path = GTMediator/Classes/GTCommon.h; sourceTree = "<group>"; };
 		F5C33EB902D37BA5B36ED90B52BC422B /* Pods-GTMediatorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMediatorSwift-umbrella.h"; sourceTree = "<group>"; };
 		F5F6CE07C9F84D66D293E4206B499EA0 /* GTMediator-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GTMediator-iOS12.0.xcconfig"; sourceTree = "<group>"; };
-		F72A1EB3A9C313585D41841DE8BA9AC7 /* Pods-GTMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GTMediator_Example.modulemap"; sourceTree = "<group>"; };
+		F72A1EB3A9C313585D41841DE8BA9AC7 /* Pods-GTMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GTMediator_Example.modulemap"; sourceTree = "<group>"; };
 		F7CFB44B1D739D05EC8848A501E6B44F /* Pods-GTMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F8F73489463619A09786219892F50D87 /* GTTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTTimeProfiler.h; path = GTMediator/Classes/GTTimeProfiler.h; sourceTree = "<group>"; };
 		FA72F69243B946537A6C0509A4136AE7 /* GTClientDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTClientDelegate.m; path = GTMediator/Classes/GTClientDelegate.m; sourceTree = "<group>"; };
@@ -900,7 +900,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GTMediatorSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GTMediatorSwift/Pods-GTMediatorSwift.modulemap";
@@ -965,7 +965,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GTMediatorSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GTMediatorSwift/Pods-GTMediatorSwift.modulemap";

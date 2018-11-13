@@ -50,11 +50,6 @@ class HomeViewController: UITabBarController, HomeServiceProtocol {
         self.viewControllers = self.registerViewControllers
     }
 
-
-
-    
-
-
     //设置为单例
     static func singleton() -> Bool {
         return true

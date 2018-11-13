@@ -44,11 +44,6 @@ typedef NS_ENUM(NSUInteger, NavigationMode) {
                routeMode:(NavigationMode)routeMode;
 
 
-/**
- 是否是包含在Tabbar中
- */
-+ (UIViewController *)isViewControllerInTabContainer:(UIViewController *)controller;
-
 @end
 
 /**

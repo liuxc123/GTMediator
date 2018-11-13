@@ -230,34 +230,6 @@
     return (UIViewController *) navController;
 }
 
-//+ (UIViewController *)isViewControllerInTabContainer:(UIViewController *)controller {
-//    if (rootTabClassesDic == nil) {
-//        rootTabClassesDic = [[NSMutableDictionary alloc] initWithCapacity:2];
-//        UIViewController *rootViewContoller = [UIApplication sharedApplication].delegate.window.rootViewController;
-//        if (rootViewContoller && [rootViewContoller isKindOfClass:[UITabBarController class]]) {
-//            NSArray *tabControllers = ((UITabBarController *)rootViewContoller).viewControllers;
-//            [tabControllers enumerateObjectsUsingBlock:^(UIViewController *_Nonnull viewController, NSUInteger idx, BOOL * _Nonnull stop) {
-//                if ([viewController isKindOfClass:[UINavigationController class]]) {
-//                    viewController = [((UINavigationController *)viewController).viewControllers objectAtIndex:0];
-//                }
-//
-//                [rootTabClassesDic setObject:viewController forKey:NSStringFromClass([viewController class])];
-//            }];
-//        }
-//    }
-//
-//    if (rootTabClassesDic && rootTabClassesDic.count > 0) {
-//        NSString *controllerKey = NSStringFromClass([controller class]);
-//        if (controllerKey) {
-//            return [rootTabClassesDic objectForKey:controllerKey];
-//        } else {
-//            return nil;
-//        }
-//    } else {
-//        return nil;
-//    }
-//}
-
 @end
 
 @implementation GTMediatorNavigator (HookRouteBlock)

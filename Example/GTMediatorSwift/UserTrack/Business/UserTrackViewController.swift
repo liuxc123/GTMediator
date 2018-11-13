@@ -13,6 +13,7 @@ class UserTrackViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.yellow
+        self.title = "UserTrack"
     }
 
     override func didReceiveMemoryWarning() {

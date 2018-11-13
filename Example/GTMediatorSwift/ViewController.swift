@@ -15,16 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "首页"
 
-        GTMediatorNavigator.shareInstance().setHookRouteBlock { [unowned self] (controller, baseController, navigationMode) -> Bool in
-//            let alert = UIAlertController(title: "提示", message: "HockRoute", preferredStyle: .alert)
-//            let cancelAction = UIAlertAction(title: "确定", style: .cancel, handler: nil)
-//            alert.addAction(cancelAction)
-//            self.present(alert, animated: true, completion: nil)
-
-            
-
-            return true
-        }
 
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
             //url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
@@ -45,7 +35,6 @@ class ViewController: UIViewController {
 //            });
 
             let homeVC = GTMediator.shareInstance().createService(HomeServiceProtocol.self)
-            homeVC 
             GTMediatorNavigator.shareInstance().show(homeVC as! UIViewController, baseViewController: self, routeMode: .push)
         }
     }

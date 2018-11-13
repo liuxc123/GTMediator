@@ -31,13 +31,6 @@
     
 //    NSURL *url = [NSURL URLWithString:@"mediator://jump.vc.beehive/HomeViewController"];
 
-    //url - >  mediator://call.service.beehive/pathComponentKey.protocolName.selector/...?params={}(value url encode)
-    //url - >  mediator://register.beehive/pathComponentKey.protocolName/...?params={}(value url encode)
-    //url - >  mediator://jump.vc.beehive/pathComponentKey.protocolName.push(modal)/...?params={}(value url encode)#push
-    //params -> {pathComponentKey:{paramName:paramValue,...},...}
-    //when call service， paramName = @1,@2,...(order of paramValue)
-
-    
     return YES;
 }
 

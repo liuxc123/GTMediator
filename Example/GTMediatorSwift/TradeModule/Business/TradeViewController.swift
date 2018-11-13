@@ -13,6 +13,8 @@ class TradeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.green
+        self.title = "Trade"
+
     }
 
     override func didReceiveMemoryWarning() {
