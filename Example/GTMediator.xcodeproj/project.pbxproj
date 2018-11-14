@@ -218,7 +218,11 @@
 		0458204321996811007E4BC3 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				0458204A2199689A007E4BC3 /* UserTrackViewController.swift */,
+				04C3F6C6219ADDA100AFBD9F /* DataBase */,
+				04C3F6C5219ADD3A00AFBD9F /* Api */,
+				04C3F6C4219ADD3100AFBD9F /* Model */,
+				04C3F6C3219ADD2A00AFBD9F /* Controller */,
+				04C3F6C2219ADD2200AFBD9F /* View */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -238,6 +242,42 @@
 				0458203E219967C0007E4BC3 /* UserTrackModule.swift */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		04C3F6C2219ADD2200AFBD9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C3F6C3219ADD2A00AFBD9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0458204A2199689A007E4BC3 /* UserTrackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04C3F6C4219ADD3100AFBD9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C3F6C5219ADD3A00AFBD9F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		04C3F6C6219ADDA100AFBD9F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {

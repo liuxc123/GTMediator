@@ -18,6 +18,8 @@ class AppDelegate: GTClientDelegate {
         GTContext.shareInstance()?.launchOptions = launchOptions
         //设置模块plist注册文件名
         GTContext.shareInstance()?.moduleConfigName = "GTMediator"
+        GTContext.shareInstance().env = .prod
+
 
         //是否抛出异常
         GTMediator.shareInstance()?.enableException = true
