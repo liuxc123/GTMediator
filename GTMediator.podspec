@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTMediator'
-  s.version          = '0.0.4'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of GTMediator.'
   s.homepage         = 'https://github.com/liuxc123/GTMediator'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
