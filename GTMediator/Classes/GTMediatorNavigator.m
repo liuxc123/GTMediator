@@ -74,7 +74,7 @@
          baseViewController:(nullable UIViewController *)baseViewController
 {
     if (!baseViewController) {
-        baseViewController = [self topmostViewController];
+        baseViewController = [self topMostViewController];
     }
     if(baseViewController == nil) return;
 
@@ -83,8 +83,7 @@
     }else if(baseViewController.navigationController){
         [baseViewController.navigationController pushViewController:controller animated:YES];
     }else{
-        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
-        [baseViewController presentViewController:navController animated:YES completion:NULL];
+        [baseViewController presentViewController:controller animated:YES completion:NULL];
     }
 }
 
@@ -126,8 +125,7 @@
     } else {
         //当前已经在最上面一层了
         if (controller != rootViewContoller) {
-            UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
-            [rootViewContoller presentViewController:navController animated:YES completion:NULL];
+            [rootViewContoller presentViewController:controller animated:YES completion:NULL];
         }
     }
 }
@@ -136,7 +134,7 @@
              baseViewController:(nullable UIViewController *)baseViewController
 {
     if (baseViewController == nil) {
-        baseViewController = [self topmostViewController];
+        baseViewController = [self topMostViewController];
     }
 
     if ([baseViewController isKindOfClass:[UITabBarController class]] ||
@@ -148,8 +146,7 @@
         [baseViewController dismissViewControllerAnimated:NO completion:nil];
     }
 
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
-    [baseViewController presentViewController:navController animated:YES completion:nil];
+    [baseViewController presentViewController:controller animated:YES completion:nil];
 }
 
 - (BOOL)popToSharedViewController:(nonnull UIViewController *)controller
@@ -186,7 +183,7 @@
 }
 
 
-- (UIViewController *)topmostViewController
+- (UIViewController *)topMostViewController
 {
     //rootViewController需要是TabBarController,排除正在显示FirstPage的情况
     UIViewController *rootViewContoller = [UIApplication sharedApplication].delegate.window.rootViewController;

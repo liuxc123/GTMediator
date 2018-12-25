@@ -44,6 +44,11 @@ typedef NS_ENUM(NSUInteger, NavigationMode) {
                routeMode:(NavigationMode)routeMode;
 
 
+/**
+ 最顶端控制器
+ */
+- (UIViewController *)topMostViewController;
+
 @end
 
 /**

@@ -37,6 +37,8 @@
 
 + (void)set:(NSString *)key integerValue:(NSInteger)value;
 
++ (void)removeObjectForKey:(NSString *)key;
+
 + (void)clear;
 
 @end

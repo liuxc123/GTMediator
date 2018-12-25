@@ -149,6 +149,13 @@ static GTConfig *_GTConfigInstance;
     [[GTConfig shareInstance].config addEntriesFromDictionary:parameters];
 }
 
++ (void)removeObjectForKey:(NSString *)key
+{
+    if ([GTConfig shareInstance].config) {
+        [[GTConfig shareInstance].config removeObjectForKey:key];
+    }
+}
+
 + (NSDictionary *)getAll
 {
     return [GTConfig shareInstance].config;
