@@ -69,12 +69,11 @@ typedef void (^watchdogFiredCallBack)(void);
 - (instancetype)initWithThreshold:(double)threshold strictMode:(BOOL)strictMode
 {
     self = [self initWithThreshold:threshold callBack:^() {
-        NSString *message = [NSString stringWithFormat:@"👮 Main thread was blocked 👮"];
         if (strictMode) {
             //避免后台切换导致进入断言
-            NSAssert([UIApplication sharedApplication].applicationState == UIApplicationStateBackground, message);
+            NSAssert([UIApplication sharedApplication].applicationState == UIApplicationStateBackground, @"👮 Main thread was blocked 👮");
         } else {
-            GTLog(@"%@", message);
+            GTLog(@"👮 Main thread was blocked 👮");
         }
     }];
 
